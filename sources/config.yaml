@@ -1,7 +1,8 @@
 sources:
-  - Rubik.glyphs
-  - Rubik-Italic.glyphs
+  - Kalnia.glyphs
+buildVariable: true
+buildStatic: true
 axisOrder:
   - wght
-  - ital
-familyName: Rubik
+  - wdth
+familyName: 'Kalnia'
