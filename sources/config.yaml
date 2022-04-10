@@ -3,8 +3,6 @@ sources:
 buildVariable: true
 buildStatic: true
 buildWebfont: false
-ttDir: "../Fonts/TTF"
-otDir: "../Fonts/OTF"
 vfDir: "../Fonts/VF"
 axisOrder:
   - wght
