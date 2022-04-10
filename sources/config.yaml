@@ -3,7 +3,7 @@ sources:
 buildVariable: true
 buildStatic: true
 buildWebfont: false
-vfDir: "../Fonts/VF"
+vfDir: "proof/fonts/VF"
 axisOrder:
   - wght
   - wdth
