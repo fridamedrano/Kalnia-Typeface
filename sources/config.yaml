@@ -3,12 +3,6 @@ sources:
 buildVariable: true
 buildStatic: true
 buildWebfont: false
-<<<<<<< Updated upstream
-=======
-ttDir: "../Fonts/TTF"
-otDir: "../Fonts/OTF"
-vfDir: "../Fonts/VF"
->>>>>>> Stashed changes
 axisOrder:
   - wght
   - wdth
