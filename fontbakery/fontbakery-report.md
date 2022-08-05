@@ -130,13 +130,13 @@ The following glyphs do not have the recommended number of contours:
 	* two (U+0032): X=336.0,Y=1.5 (should be at baseline 0?)
 	* three (U+0033): X=262.0,Y=2.0 (should be at baseline 0?)
 	* three (U+0033): X=264.0,Y=707.0 (should be at cap-height 708?)
-	* six (U+0036): X=398.0,Y=707.0 (should be at cap-height 708?)
+	* six (U+0036): X=394.0,Y=706.0 (should be at cap-height 708?)
 	* seven (U+0037): X=583.5,Y=706.0 (should be at cap-height 708?)
-	* nine (U+0039): X=193.5,Y=1.0 (should be at baseline 0?)
 	* nine (U+0039): X=261.0,Y=2.0 (should be at baseline 0?)
 	* C (U+0043): X=380.0,Y=710.0 (should be at cap-height 708?)
 	* G (U+0047): X=376.0,Y=710.0 (should be at cap-height 708?)
-	* J (U+004A): X=186.0,Y=1.0 (should be at baseline 0?) and 44 more.
+	* J (U+004A): X=186.0,Y=1.0 (should be at baseline 0?)
+	* O (U+004F): X=388.0,Y=710.0 (should be at cap-height 708?) and 43 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -239,7 +239,7 @@ The following glyphs do not have the recommended number of contours:
 	* comma (U+002C): X=353.5,Y=2.0 (should be at baseline 0?)
 	* two (U+0032): X=550.0,Y=-1.0 (should be at baseline 0?)
 	* three (U+0033): X=446.0,Y=2.0 (should be at baseline 0?)
-	* three (U+0033): X=451.0,Y=707.0 (should be at cap-height 708?) and 76 more.
+	* three (U+0033): X=451.0,Y=707.0 (should be at cap-height 708?) and 77 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -337,7 +337,7 @@ The following glyphs do not have the recommended number of contours:
 	* parenright (U+0029): X=559.0,Y=708.5 (should be at cap-height 708?)
 	* comma (U+002C): X=157.5,Y=-0.5 (should be at baseline 0?)
 	* period (U+002E): X=425.0,Y=-0.5 (should be at baseline 0?)
-	* period (U+002E): X=157.5,Y=-0.5 (should be at baseline 0?) and 72 more.
+	* period (U+002E): X=157.5,Y=-0.5 (should be at baseline 0?) and 71 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -417,13 +417,13 @@ The following glyphs do not have the recommended number of contours:
 	* dollar (U+0024): X=168.5,Y=2.0 (should be at baseline 0?)
 	* dollar (U+0024): X=469.5,Y=2.0 (should be at baseline 0?)
 	* three (U+0033): X=238.0,Y=706.0 (should be at cap-height 708?)
-	* six (U+0036): X=464.0,Y=706.0 (should be at cap-height 708?)
 	* G (U+0047): X=516.5,Y=-1.0 (should be at baseline 0?)
 	* J (U+004A): X=191.0,Y=1.0 (should be at baseline 0?)
 	* a (U+0061): X=218.5,Y=502.0 (should be at x-height 500?)
 	* b (U+0062): X=420.0,Y=502.0 (should be at x-height 500?)
 	* b (U+0062): X=470.0,Y=-0.5 (should be at baseline 0?)
-	* b (U+0062): X=264.0,Y=2.0 (should be at baseline 0?) and 52 more.
+	* b (U+0062): X=264.0,Y=2.0 (should be at baseline 0?)
+	* c (U+0063): X=462.0,Y=499.5 (should be at x-height 500?) and 51 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -447,7 +447,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
  * uacute (U+00FA): L<<631.0,515.0>--<632.0,36.0>> and 7 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] Kalnia-ThinExtended.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] Kalnia-ThinExtended.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/ttf/Kalnia-ThinExtended.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
@@ -504,6 +504,22 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: fl	Contours detected: 1	Expected: 2 
 	- And Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+	* percent (U+0025): X=294.0,Y=709.0 (should be at cap-height 708?)
+	* ampersand (U+0026): X=209.5,Y=2.0 (should be at baseline 0?)
+	* ampersand (U+0026): X=1071.0,Y=2.0 (should be at baseline 0?)
+	* ampersand (U+0026): X=950.0,Y=1.5 (should be at baseline 0?)
+	* ampersand (U+0026): X=495.5,Y=-0.5 (should be at baseline 0?)
+	* ampersand (U+0026): X=518.0,Y=707.0 (should be at cap-height 708?)
+	* parenleft (U+0028): X=264.5,Y=-0.5 (should be at baseline 0?)
+	* parenright (U+0029): X=294.5,Y=-0.5 (should be at baseline 0?)
+	* zero (U+0030): X=557.0,Y=1.0 (should be at baseline 0?)
+	* zero (U+0030): X=557.0,Y=707.0 (should be at cap-height 708?) and 89 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -662,7 +678,7 @@ The following glyphs do not have the recommended number of contours:
 	* zero (U+0030): X=321.0,Y=707.0 (should be at cap-height 708?)
 	* zero (U+0030): X=321.0,Y=1.0 (should be at baseline 0?)
 	* two (U+0032): X=87.5,Y=-2.0 (should be at baseline 0?)
-	* two (U+0032): X=202.0,Y=707.0 (should be at cap-height 708?) and 75 more.
+	* two (U+0032): X=202.0,Y=707.0 (should be at cap-height 708?) and 73 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -687,7 +703,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 18 | 72 | 875 | 49 | 674 | 0 |
+| 0 | 18 | 73 | 875 | 49 | 673 | 0 |
 | 0% | 1% | 4% | 52% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
