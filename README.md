@@ -16,6 +16,8 @@ Kalnia is a display typeface with high contrast and delicate terminals for poste
 Kalnia is a family with a total of eight styles. It includes four weights: Thin, Light, Regular, and Bold. Each one also has its normal and extended width adding: Thin Extended, Light Extended, Regular Extended, and Bold Extended.
 The typeface also has a variable font with weight and width axes. 
 
+![Sample Image](documentation/image1.png)
+
 
 ## About Frida Medrano
 
