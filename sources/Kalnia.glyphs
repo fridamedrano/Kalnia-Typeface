@@ -46,6 +46,10 @@ name = "Make morx table";
 value = 1;
 },
 {
+name = "Variable Font Origin";
+value = "2660E96A-9963-4076-AFCB-E451BC6EE103";
+},
+{
 name = description;
 value = "Kalnia is a display typeface with high contrast and delicate terminals for poster headlines. During the Victorian era, machines made mass production possible, changing design forever. Classical text typefaces didn’t satisfy the necessities of the time, and typography with bold and impactful letters appeared. Kalnia was born by this concept, inspired by the ‘fat faces’ of that time. Kalnia is a family with a total of eight styles. It includes four weights: Thin, Light, Regular, and Bold. Each one also has its normal and extended width adding: Thin Extended, Light Extended, Regular Extended, and Bold Extended. The typeface also has a variable font with weight and width axes. ";
 },
@@ -178,6 +182,19 @@ customParameters = (
 {
 name = typoLineGap;
 value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
 }
 );
 descender = -215;
@@ -218,6 +235,19 @@ customParameters = (
 {
 name = typoLineGap;
 value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
 }
 );
 descender = -215;
@@ -259,6 +289,19 @@ customParameters = (
 {
 name = typoLineGap;
 value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
 }
 );
 descender = -215;
@@ -301,6 +344,19 @@ customParameters = (
 {
 name = typoLineGap;
 value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
 }
 );
 descender = -215;
@@ -39440,6 +39496,29 @@ unicode = 02BB;
 );
 instances = (
 {
+customParameters = (
+{
+name = "Style Name as STAT entry";
+value = wght;
+},
+{
+name = "Elidable STAT Axis Value Name";
+value = "wght, wdth";
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 instanceInterpolations = {
 "A5088515-37FF-452F-BD44-18A7A5EF88F0" = 1;
 };
@@ -39447,6 +39526,29 @@ name = Thin;
 weightClass = Thin;
 },
 {
+customParameters = (
+{
+name = "Elidable STAT Axis Value Name";
+value = "wght, wdth";
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 interpolationWeight = 300;
 instanceInterpolations = {
 "2660E96A-9963-4076-AFCB-E451BC6EE103" = 0.25;
@@ -39456,6 +39558,29 @@ name = Light;
 weightClass = Light;
 },
 {
+customParameters = (
+{
+name = "Elidable STAT Axis Value Name";
+value = "wght, wdth";
+},
+{
+name = "Elidable STAT Axis Value Name";
+value = "wght, wdth";
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 interpolationWeight = 550;
 instanceInterpolations = {
 "2660E96A-9963-4076-AFCB-E451BC6EE103" = 0.5625;
@@ -39464,6 +39589,29 @@ instanceInterpolations = {
 name = Regular;
 },
 {
+customParameters = (
+{
+name = "Style Name as STAT entry";
+value = wght;
+},
+{
+name = "Elidable STAT Axis Value Name";
+value = "wght, wdth";
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 interpolationWeight = 900;
 instanceInterpolations = {
 "2660E96A-9963-4076-AFCB-E451BC6EE103" = 1;
@@ -39473,6 +39621,29 @@ name = Bold;
 weightClass = Bold;
 },
 {
+customParameters = (
+{
+name = "Style Name as STAT entry";
+value = "wght, wdth";
+},
+{
+name = "Elidable STAT Axis Value Name";
+value = "wght, wdth";
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
+}
+);
 interpolationWidth = 125;
 instanceInterpolations = {
 "35A90D60-3AD4-435C-9F8B-D1CA483F6F66" = 1;
@@ -39482,6 +39653,29 @@ weightClass = Thin;
 widthClass = Expanded;
 },
 {
+customParameters = (
+{
+name = "Style Name as STAT entry";
+value = "wght, wdth";
+},
+{
+name = "Elidable STAT Axis Value Name";
+value = "wght, wdth";
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
+}
+);
 interpolationWeight = 300;
 interpolationWidth = 125;
 instanceInterpolations = {
@@ -39493,6 +39687,29 @@ weightClass = Light;
 widthClass = Expanded;
 },
 {
+customParameters = (
+{
+name = "Style Name as STAT entry";
+value = wdth;
+},
+{
+name = "Elidable STAT Axis Value Name";
+value = "wght, wdth";
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
+}
+);
 interpolationWeight = 550;
 interpolationWidth = 125;
 instanceInterpolations = {
@@ -39503,6 +39720,29 @@ name = "Regular Extended";
 widthClass = Expanded;
 },
 {
+customParameters = (
+{
+name = "Style Name as STAT entry";
+value = "wght, wdth";
+},
+{
+name = "Elidable STAT Axis Value Name";
+value = "wght, wdth";
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
+}
+);
 interpolationWeight = 900;
 interpolationWidth = 125;
 instanceInterpolations = {
