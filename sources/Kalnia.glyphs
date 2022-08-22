@@ -59,10 +59,6 @@ name = "Export morx Table";
 value = 1;
 },
 {
-name = DisableAllAutomaticBehaviour;
-value = 1;
-},
-{
 name = "Variable Font Origin";
 value = "2660E96A-9963-4076-AFCB-E451BC6EE103";
 }
@@ -85,7 +81,6 @@ automatic = 1;
 code = "feature sups;
 feature frac;
 feature ordn;
-feature ss01;
 ";
 tag = aalt;
 },
