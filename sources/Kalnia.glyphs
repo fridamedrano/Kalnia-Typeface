@@ -142,8 +142,13 @@ code = "pos @Uppercase <5 0 10 0>;
 tag = cpsp;
 },
 {
-code = "sub quotedbl by quotedbl.ss01;
-sub quotesingle by quotesingle.ss01;";
+code = "	featureName {
+		name \"Alternate quote\";
+	};
+
+sub quotedbl by quotedbl.ss01;
+sub quotesingle by quotesingle.ss01;
+";
 labels = (
 {
 language = dflt;
