@@ -1,5 +1,8 @@
 {
 .appVersion = "3133";
+DisplayStrings = (
+fbbffhhiijjkkl
+);
 classes = (
 {
 automatic = 1;
@@ -50,8 +53,12 @@ name = "Variable Font Origin";
 value = "2660E96A-9963-4076-AFCB-E451BC6EE103";
 },
 {
+name = DisableAllAutomaticBehaviour;
+value = 1;
+},
+{
 name = description;
-value = "Kalnia is a display typeface with high contrast and delicate terminals for poster headlines. During the Victorian era, machines made mass production possible, changing design forever. Classical text typefaces didn’t satisfy the necessities of the time, and typography with bold and impactful letters appeared. Kalnia was born by this concept, inspired by the ‘fat faces’ of that time. Kalnia is a family with a total of eight styles. It includes four weights: Thin, Light, Regular, and Bold. Each one also has its normal and extended width adding: Thin Extended, Light Extended, Regular Extended, and Bold Extended. The typeface also has a variable font with weight and width axes. ";
+value = "Kalnia is a display typeface with high contrast and delicate terminals for poster headlines inspired in the fat faces of the Victorian era. It’s a variable font with weight and width axes.";
 },
 {
 name = license;
@@ -155,12 +162,10 @@ code = "pos @Uppercase <5 0 10 0>;
 name = cpsp;
 },
 {
-automatic = 1;
 code = "sub quotedbl by quotedbl.ss01;
-sub quotesingle by quotesingle.ss01;
-";
+sub quotesingle by quotesingle.ss01;";
 name = ss01;
-notes = "Name: name: Alternate Quote";
+notes = "Name: Name: Alternate QuoteName:	Alternate Quote";
 }
 );
 fontMaster = (
@@ -311,7 +316,6 @@ horizontalStems = (
 );
 iconName = Light_Extended;
 id = "35A90D60-3AD4-435C-9F8B-D1CA483F6F66";
-name = "Thin Extended";
 userData = {
 GSCornerRadius = 47;
 GSOffsetHorizontal = 7;
@@ -365,6 +369,7 @@ horizontalStems = (
 10
 );
 id = "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47";
+name = "Extended Bold";
 userData = {
 GSCornerRadius = 350;
 GSOffsetHorizontal = 7;
@@ -39648,7 +39653,7 @@ interpolationWidth = 125;
 instanceInterpolations = {
 "35A90D60-3AD4-435C-9F8B-D1CA483F6F66" = 1;
 };
-name = "Thin Extended";
+name = "Extended Thin";
 weightClass = Thin;
 widthClass = Expanded;
 },
@@ -39682,7 +39687,7 @@ instanceInterpolations = {
 "35A90D60-3AD4-435C-9F8B-D1CA483F6F66" = 0.75;
 "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47" = 0.25;
 };
-name = "Light Extended";
+name = "Extended Light";
 weightClass = Light;
 widthClass = Expanded;
 },
@@ -39716,7 +39721,7 @@ instanceInterpolations = {
 "35A90D60-3AD4-435C-9F8B-D1CA483F6F66" = 0.4375;
 "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47" = 0.5625;
 };
-name = "Regular Extended";
+name = Extended;
 widthClass = Expanded;
 },
 {
@@ -39749,7 +39754,7 @@ instanceInterpolations = {
 "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47" = 1;
 };
 isBold = 1;
-name = "Bold Extended";
+name = "Extended Bold";
 weightClass = Bold;
 widthClass = Expanded;
 }
