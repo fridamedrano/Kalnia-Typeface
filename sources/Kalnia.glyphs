@@ -39800,7 +39800,7 @@ value = "4 3;KalniaExtended Thin";
 instanceInterpolations = {
 "35A90D60-3AD4-435C-9F8B-D1CA483F6F66" = 1;
 };
-name = "Extended Thin";
+name = Thin;
 properties = (
 {
 key = preferredFamilyNames;
@@ -39920,7 +39920,7 @@ instanceInterpolations = {
 "35A90D60-3AD4-435C-9F8B-D1CA483F6F66" = 0.75;
 "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47" = 0.25;
 };
-name = "Extended Light";
+name = Light;
 properties = (
 {
 key = preferredFamilyNames;
@@ -40160,7 +40160,7 @@ instanceInterpolations = {
 };
 isBold = 1;
 linkStyle = Extended;
-name = "Extended Bold";
+name = Bold;
 properties = (
 {
 key = preferredFamilyNames;
