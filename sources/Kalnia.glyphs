@@ -39366,6 +39366,32 @@ language = dflt;
 value = Thin;
 }
 );
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = Kalnia;
+}
+);
+},
+{
+key = styleNames;
+values = (
+{
+language = dflt;
+value = Thin;
+}
+);
+},
+{
+key = WWSFamilyName;
+value = Kalnia;
+},
+{
+key = WWSSubfamilyName;
+value = Thin;
 }
 );
 weightClass = 100;
@@ -39459,6 +39485,32 @@ language = dflt;
 value = Light;
 }
 );
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = Kalnia;
+}
+);
+},
+{
+key = styleNames;
+values = (
+{
+language = dflt;
+value = Light;
+}
+);
+},
+{
+key = WWSFamilyName;
+value = Kalnia;
+},
+{
+key = WWSSubfamilyName;
+value = Light;
 }
 );
 weightClass = 300;
@@ -39552,6 +39604,32 @@ language = dflt;
 value = Regular;
 }
 );
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = Kalnia;
+}
+);
+},
+{
+key = styleNames;
+values = (
+{
+language = dflt;
+value = Regular;
+}
+);
+},
+{
+key = WWSFamilyName;
+value = Kalnia;
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -39603,6 +39681,7 @@ instanceInterpolations = {
 "2660E96A-9963-4076-AFCB-E451BC6EE103" = 1;
 };
 isBold = 1;
+linkStyle = Regular;
 name = Bold;
 properties = (
 {
@@ -39644,6 +39723,32 @@ language = dflt;
 value = Bold;
 }
 );
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = Kalnia;
+}
+);
+},
+{
+key = styleNames;
+values = (
+{
+language = dflt;
+value = Bold;
+}
+);
+},
+{
+key = WWSFamilyName;
+value = Kalnia;
+},
+{
+key = WWSSubfamilyName;
+value = Bold;
 }
 );
 weightClass = 700;
@@ -39736,6 +39841,32 @@ language = dflt;
 value = Thin;
 }
 );
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = KalniaExtended;
+}
+);
+},
+{
+key = styleNames;
+values = (
+{
+language = dflt;
+value = Thin;
+}
+);
+},
+{
+key = WWSFamilyName;
+value = KalniaExtended;
+},
+{
+key = WWSSubfamilyName;
+value = Thin;
 }
 );
 weightClass = 100;
@@ -39830,6 +39961,32 @@ language = dflt;
 value = Light;
 }
 );
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = KalniaExtended;
+}
+);
+},
+{
+key = styleNames;
+values = (
+{
+language = dflt;
+value = Light;
+}
+);
+},
+{
+key = WWSFamilyName;
+value = KalniaExtended;
+},
+{
+key = WWSSubfamilyName;
+value = Light;
 }
 );
 weightClass = 300;
@@ -39924,6 +40081,32 @@ language = dflt;
 value = Regular;
 }
 );
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = KalniaExtended;
+}
+);
+},
+{
+key = styleNames;
+values = (
+{
+language = dflt;
+value = Regular;
+}
+);
+},
+{
+key = WWSFamilyName;
+value = KalniaExtended;
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 widthClass = 7;
@@ -39976,6 +40159,7 @@ instanceInterpolations = {
 "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47" = 1;
 };
 isBold = 1;
+linkStyle = Extended;
 name = "Extended Bold";
 properties = (
 {
@@ -40017,6 +40201,32 @@ language = dflt;
 value = Bold;
 }
 );
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = KalniaExtended;
+}
+);
+},
+{
+key = styleNames;
+values = (
+{
+language = dflt;
+value = Bold;
+}
+);
+},
+{
+key = WWSFamilyName;
+value = KalniaExtended;
+},
+{
+key = WWSSubfamilyName;
+value = Bold;
 }
 );
 weightClass = 700;
@@ -40618,6 +40828,10 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 {
 key = licenseURL;
 value = "https://scripts.sil.org/OFL";
+},
+{
+key = WWSFamilyName;
+value = KalniaExtended;
 }
 );
 settings = {
