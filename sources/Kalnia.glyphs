@@ -57,6 +57,10 @@ value = (
 {
 name = "Export morx Table";
 value = 1;
+},
+{
+name = "Variable Font Origin";
+value = "2660E96A-9963-4076-AFCB-E451BC6EE103";
 }
 );
 date = "2022-03-23 12:33:01 +0000";
@@ -39609,23 +39613,6 @@ isBold = 1;
 name = "Extended Bold";
 weightClass = 700;
 widthClass = 7;
-},
-{
-axesValues = (
-0,
-0
-);
-customParameters = (
-{
-name = "Variable Font Origin";
-value = "2660E96A-9963-4076-AFCB-E451BC6EE103";
-}
-);
-instanceInterpolations = {
-"A5088515-37FF-452F-BD44-18A7A5EF88F0" = 1;
-};
-name = Regular;
-type = variable;
 }
 );
 kerningLTR = {
