@@ -39296,6 +39296,10 @@ Axis = Width;
 Location = 100;
 }
 );
+},
+{
+name = fileName;
+value = "Kalnia-Thin";
 }
 );
 instanceInterpolations = {
@@ -39350,6 +39354,10 @@ Axis = Width;
 Location = 100;
 }
 );
+},
+{
+name = fileName;
+value = "Kalnia-Light";
 }
 );
 instanceInterpolations = {
@@ -39405,6 +39413,10 @@ Axis = Width;
 Location = 100;
 }
 );
+},
+{
+name = fileName;
+value = "Kalnia-Regular";
 }
 );
 instanceInterpolations = {
@@ -39459,6 +39471,10 @@ Axis = Width;
 Location = 100;
 }
 );
+},
+{
+name = fileName;
+value = "Kalnia-Bold";
 }
 );
 instanceInterpolations = {
@@ -39514,6 +39530,10 @@ Axis = Width;
 Location = 125;
 }
 );
+},
+{
+name = fileName;
+value = "KalniaExtended-Thin";
 }
 );
 instanceInterpolations = {
@@ -39569,6 +39589,10 @@ Axis = Width;
 Location = 125;
 }
 );
+},
+{
+name = fileName;
+value = "KalniaExtended-Light";
 }
 );
 instanceInterpolations = {
@@ -39625,6 +39649,10 @@ Axis = Width;
 Location = 125;
 }
 );
+},
+{
+name = fileName;
+value = "KalniaExtended-Regular";
 }
 );
 instanceInterpolations = {
@@ -39680,6 +39708,10 @@ Axis = Width;
 Location = 125;
 }
 );
+},
+{
+name = fileName;
+value = "KalniaExtended-Bold";
 }
 );
 instanceInterpolations = {
