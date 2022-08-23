@@ -39300,6 +39300,14 @@ Location = 100;
 {
 name = fileName;
 value = "Kalnia-Thin";
+},
+{
+name = "Name Table Entry";
+value = "1; Kalnia";
+},
+{
+name = "Name Table Entry";
+value = "2; Thin";
 }
 );
 instanceInterpolations = {
@@ -39324,6 +39332,10 @@ language = dflt;
 value = Thin;
 }
 );
+},
+{
+key = postscriptFontName;
+value = "Kalnia-Thin";
 }
 );
 weightClass = 100;
@@ -39358,6 +39370,14 @@ Location = 100;
 {
 name = fileName;
 value = "Kalnia-Light";
+},
+{
+name = "Name Table Entry";
+value = "1; Kalnia";
+},
+{
+name = "Name Table Entry";
+value = "2; Light";
 }
 );
 instanceInterpolations = {
@@ -39383,6 +39403,10 @@ language = dflt;
 value = Light;
 }
 );
+},
+{
+key = postscriptFontName;
+value = "Kalnia-Light";
 }
 );
 weightClass = 300;
@@ -39417,6 +39441,14 @@ Location = 100;
 {
 name = fileName;
 value = "Kalnia-Regular";
+},
+{
+name = "Name Table Entry";
+value = "1; Kalnia";
+},
+{
+name = "Name Table Entry";
+value = "2; Regular";
 }
 );
 instanceInterpolations = {
@@ -39442,6 +39474,10 @@ language = dflt;
 value = Regular;
 }
 );
+},
+{
+key = postscriptFontName;
+value = "Kalnia-Regular";
 }
 );
 },
@@ -39475,6 +39511,14 @@ Location = 100;
 {
 name = fileName;
 value = "Kalnia-Bold";
+},
+{
+name = "Name Table Entry";
+value = "1; Kalnia";
+},
+{
+name = "Name Table Entry";
+value = "2; Bold";
 }
 );
 instanceInterpolations = {
@@ -39500,6 +39544,10 @@ language = dflt;
 value = Bold;
 }
 );
+},
+{
+key = postscriptFontName;
+value = "Kalnia-Bold";
 }
 );
 weightClass = 700;
@@ -39534,6 +39582,14 @@ Location = 125;
 {
 name = fileName;
 value = "KalniaExtended-Thin";
+},
+{
+name = "Name Table Entry";
+value = "1; KalniaExtended";
+},
+{
+name = "Name Table Entry";
+value = "2; Thin";
 }
 );
 instanceInterpolations = {
@@ -39558,6 +39614,10 @@ language = dflt;
 value = Thin;
 }
 );
+},
+{
+key = postscriptFontName;
+value = "KalniaExtended-Thin";
 }
 );
 weightClass = 100;
@@ -39593,6 +39653,14 @@ Location = 125;
 {
 name = fileName;
 value = "KalniaExtended-Light";
+},
+{
+name = "Name Table Entry";
+value = "1; KalniaExtended";
+},
+{
+name = "Name Table Entry";
+value = "2; Light";
 }
 );
 instanceInterpolations = {
@@ -39618,6 +39686,10 @@ language = dflt;
 value = Light;
 }
 );
+},
+{
+key = postscriptFontName;
+value = "KalniaExtended-Light";
 }
 );
 weightClass = 300;
@@ -39652,14 +39724,22 @@ Location = 125;
 },
 {
 name = fileName;
-value = "KalniaExtended-Regular";
+value = KalniaExtended;
+},
+{
+name = "Name Table Entry";
+value = "1; KalniaExtended";
+},
+{
+name = "Name Table Entry";
+value = "2; Regular";
 }
 );
 instanceInterpolations = {
 "35A90D60-3AD4-435C-9F8B-D1CA483F6F66" = 0.4375;
 "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47" = 0.5625;
 };
-name = "Extended-Regular";
+name = Extended;
 properties = (
 {
 key = preferredFamilyNames;
@@ -39678,6 +39758,10 @@ language = dflt;
 value = Regular;
 }
 );
+},
+{
+key = postscriptFontName;
+value = "KalniaExtended-Regular";
 }
 );
 widthClass = 7;
@@ -39712,6 +39796,14 @@ Location = 125;
 {
 name = fileName;
 value = "KalniaExtended-Bold";
+},
+{
+name = "Name Table Entry";
+value = "1; KalniaExtended";
+},
+{
+name = "Name Table Entry";
+value = "2; Bold";
 }
 );
 instanceInterpolations = {
@@ -39737,6 +39829,10 @@ language = dflt;
 value = Bold;
 }
 );
+},
+{
+key = postscriptFontName;
+value = "KalniaExtended-Bold";
 }
 );
 weightClass = 700;
