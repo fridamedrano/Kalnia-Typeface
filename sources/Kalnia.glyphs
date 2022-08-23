@@ -39296,20 +39296,32 @@ Axis = Width;
 Location = 100;
 }
 );
-},
-{
-name = fileName;
-value = "Kalnia-Thin";
-},
-{
-name = "Name Table Entry";
-value = "1 2; Kalnia Thin";
 }
 );
 instanceInterpolations = {
 "A5088515-37FF-452F-BD44-18A7A5EF88F0" = 1;
 };
 name = Thin;
+properties = (
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = Kalnia;
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Thin;
+}
+);
+}
+);
 weightClass = 100;
 },
 {
@@ -39338,14 +39350,6 @@ Axis = Width;
 Location = 100;
 }
 );
-},
-{
-name = fileName;
-value = "Kalnia-Light";
-},
-{
-name = "Name Table Entry";
-value = "1 2; Kalnia Light";
 }
 );
 instanceInterpolations = {
@@ -39353,6 +39357,26 @@ instanceInterpolations = {
 "A5088515-37FF-452F-BD44-18A7A5EF88F0" = 0.75;
 };
 name = Light;
+properties = (
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = Kalnia;
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Light;
+}
+);
+}
+);
 weightClass = 300;
 },
 {
@@ -39381,14 +39405,6 @@ Axis = Width;
 Location = 100;
 }
 );
-},
-{
-name = fileName;
-value = "Kalnia-Regular";
-},
-{
-name = "Name Table Entry";
-value = "1 2; Kalnia Regular";
 }
 );
 instanceInterpolations = {
@@ -39396,6 +39412,26 @@ instanceInterpolations = {
 "A5088515-37FF-452F-BD44-18A7A5EF88F0" = 0.4375;
 };
 name = Regular;
+properties = (
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = Kalnia;
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Regular;
+}
+);
+}
+);
 },
 {
 axesValues = (
@@ -39423,14 +39459,6 @@ Axis = Width;
 Location = 100;
 }
 );
-},
-{
-name = fileName;
-value = "Kalnia-Bold";
-},
-{
-name = "Name Table Entry";
-value = "1 2; Kalnia Bold";
 }
 );
 instanceInterpolations = {
@@ -39438,6 +39466,26 @@ instanceInterpolations = {
 };
 isBold = 1;
 name = Bold;
+properties = (
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = Kalnia;
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Bold;
+}
+);
+}
+);
 weightClass = 700;
 },
 {
@@ -39466,20 +39514,32 @@ Axis = Width;
 Location = 125;
 }
 );
-},
-{
-name = fileName;
-value = "KalniaExtended-Thin";
-},
-{
-name = "Name Table Entry";
-value = "1 2; KalniaExtended Thin";
 }
 );
 instanceInterpolations = {
 "35A90D60-3AD4-435C-9F8B-D1CA483F6F66" = 1;
 };
 name = "Extended Thin";
+properties = (
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = KalniaExtended;
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Thin;
+}
+);
+}
+);
 weightClass = 100;
 widthClass = 7;
 },
@@ -39509,14 +39569,6 @@ Axis = Width;
 Location = 125;
 }
 );
-},
-{
-name = fileName;
-value = "KalniaExtended-Light";
-},
-{
-name = "Name Table Entry";
-value = "1 2; KalniaExtended Light";
 }
 );
 instanceInterpolations = {
@@ -39524,6 +39576,26 @@ instanceInterpolations = {
 "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47" = 0.25;
 };
 name = "Extended Light";
+properties = (
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = KalniaExtended;
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Light;
+}
+);
+}
+);
 weightClass = 300;
 widthClass = 7;
 },
@@ -39553,14 +39625,6 @@ Axis = Width;
 Location = 125;
 }
 );
-},
-{
-name = fileName;
-value = "KalniaExtended-Regular";
-},
-{
-name = "Name Table Entry";
-value = "1 2; KalniaExtended Regular";
 }
 );
 instanceInterpolations = {
@@ -39568,6 +39632,26 @@ instanceInterpolations = {
 "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47" = 0.5625;
 };
 name = "Extended-Regular";
+properties = (
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = KalniaExtended;
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Regular;
+}
+);
+}
+);
 widthClass = 7;
 },
 {
@@ -39596,14 +39680,6 @@ Axis = Width;
 Location = 125;
 }
 );
-},
-{
-name = fileName;
-value = "KalniaExtended-Bold";
-},
-{
-name = "Name Table Entry";
-value = "1 2; KalniaExtended Bold";
 }
 );
 instanceInterpolations = {
@@ -39611,6 +39687,26 @@ instanceInterpolations = {
 };
 isBold = 1;
 name = "Extended Bold";
+properties = (
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = KalniaExtended;
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Bold;
+}
+);
+}
+);
 weightClass = 700;
 widthClass = 7;
 }
