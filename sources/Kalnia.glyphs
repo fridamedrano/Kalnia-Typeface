@@ -39522,8 +39522,6 @@ interpolationWidth = 125;
 instanceInterpolations = {
 "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47" = 1;
 };
-isBold = 1;
-linkStyle = Extended;
 name = Bold;
 weightClass = Bold;
 widthClass = Expanded;
