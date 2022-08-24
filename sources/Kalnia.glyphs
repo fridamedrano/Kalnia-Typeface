@@ -42,12 +42,7 @@ value = 1;
 {
 name = fsType;
 value = (
-8
 );
-},
-{
-name = "Variable Font Origin";
-value = "2660E96A-9963-4076-AFCB-E451BC6EE103";
 },
 {
 name = description;
@@ -39432,7 +39427,7 @@ Location = 125;
 },
 {
 name = familyName;
-value = KalniaExtended;
+value = "Kalnia Extended";
 }
 );
 interpolationWidth = 125;
@@ -39460,7 +39455,7 @@ Location = 125;
 },
 {
 name = familyName;
-value = KalniaExtended;
+value = "Kalnia Extended";
 }
 );
 interpolationWeight = 300;
@@ -39490,7 +39485,7 @@ Location = 125;
 },
 {
 name = familyName;
-value = KalniaExtended;
+value = "Kalnia Extended";
 }
 );
 interpolationWeight = 550;
@@ -39499,7 +39494,7 @@ instanceInterpolations = {
 "35A90D60-3AD4-435C-9F8B-D1CA483F6F66" = 0.4375;
 "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47" = 0.5625;
 };
-name = Extended;
+name = Regular;
 widthClass = Expanded;
 },
 {
@@ -39519,7 +39514,7 @@ Location = 125;
 },
 {
 name = familyName;
-value = KalniaExtended;
+value = "Kalnia Extended";
 }
 );
 interpolationWeight = 900;
