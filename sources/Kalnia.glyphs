@@ -169,19 +169,6 @@ customParameters = (
 {
 name = typoLineGap;
 value = 0;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 100;
-},
-{
-Axis = Width;
-Location = 100;
-}
-);
 }
 );
 descender = -215;
@@ -222,19 +209,6 @@ customParameters = (
 {
 name = typoLineGap;
 value = 0;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-},
-{
-Axis = Width;
-Location = 100;
-}
-);
 }
 );
 descender = -215;
@@ -276,19 +250,6 @@ customParameters = (
 {
 name = typoLineGap;
 value = 0;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 100;
-},
-{
-Axis = Width;
-Location = 125;
-}
-);
 }
 );
 descender = -215;
@@ -330,19 +291,6 @@ customParameters = (
 {
 name = typoLineGap;
 value = 0;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-},
-{
-Axis = Width;
-Location = 125;
-}
-);
 }
 );
 descender = -215;
@@ -39317,21 +39265,6 @@ unicode = 02BB;
 );
 instances = (
 {
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 100;
-},
-{
-Axis = Width;
-Location = 100;
-}
-);
-}
-);
 instanceInterpolations = {
 "A5088515-37FF-452F-BD44-18A7A5EF88F0" = 1;
 };
@@ -39339,21 +39272,6 @@ name = Thin;
 weightClass = Thin;
 },
 {
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 300;
-},
-{
-Axis = Width;
-Location = 100;
-}
-);
-}
-);
 interpolationWeight = 300;
 instanceInterpolations = {
 "2660E96A-9963-4076-AFCB-E451BC6EE103" = 0.25;
@@ -39363,21 +39281,6 @@ name = Light;
 weightClass = Light;
 },
 {
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-},
-{
-Axis = Width;
-Location = 100;
-}
-);
-}
-);
 interpolationWeight = 550;
 instanceInterpolations = {
 "2660E96A-9963-4076-AFCB-E451BC6EE103" = 0.5625;
@@ -39386,21 +39289,6 @@ instanceInterpolations = {
 name = Regular;
 },
 {
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-},
-{
-Axis = Width;
-Location = 100;
-}
-);
-}
-);
 interpolationWeight = 900;
 instanceInterpolations = {
 "2660E96A-9963-4076-AFCB-E451BC6EE103" = 1;
@@ -39412,19 +39300,6 @@ weightClass = Bold;
 },
 {
 customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 100;
-},
-{
-Axis = Width;
-Location = 125;
-}
-);
-},
 {
 name = familyName;
 value = "Kalnia Extended";
@@ -39440,19 +39315,6 @@ widthClass = Expanded;
 },
 {
 customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 300;
-},
-{
-Axis = Width;
-Location = 125;
-}
-);
-},
 {
 name = familyName;
 value = "Kalnia Extended";
@@ -39471,19 +39333,6 @@ widthClass = Expanded;
 {
 customParameters = (
 {
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-},
-{
-Axis = Width;
-Location = 125;
-}
-);
-},
-{
 name = familyName;
 value = "Kalnia Extended";
 }
@@ -39500,23 +39349,6 @@ widthClass = Expanded;
 {
 customParameters = (
 {
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-},
-{
-Axis = Width;
-Location = 125;
-}
-);
-},
-{
-name = styleMapFamilyName;
-value = "Extended Bold";
-},
-{
 name = familyName;
 value = "Kalnia Extended";
 }
@@ -39526,7 +39358,6 @@ interpolationWidth = 125;
 instanceInterpolations = {
 "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47" = 1;
 };
-linkStyle = "Extended Regular";
 name = Bold;
 weightClass = Bold;
 widthClass = Expanded;
