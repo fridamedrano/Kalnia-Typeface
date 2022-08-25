@@ -122,7 +122,7 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
  * B (U+0042): L<<316.0,376.0>--<572.0,378.0>>
  * B (U+0042): L<<572.0,363.0>--<316.0,365.0>> and four (U+0034): L<<839.0,203.0>--<997.0,204.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] KalniaExtended-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsSelection value. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fsselection">com.google.fonts/check/fsselection</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] KalniaExtended-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsSelection value. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fsselection">com.google.fonts/check/fsselection</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2 fsSelection REGULAR bit should be unset. [code: bad-REGULAR]
@@ -134,7 +134,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
 
 
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Extended" but got "Extended Bold". [code: mismatch]
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Kalnia Extended" but got "Kalnia Extended Bold". [code: mismatch]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_SUBFAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname">com.google.fonts/check/name/subfamilyname</a>)</summary><div>
 
 
@@ -143,10 +143,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** Font style is "Bold" and, for that reason, it is not expected to have a [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] entry! [code: ribbi]
-</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
-
-
-* 🔥 **FAIL** On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Extended Bold') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Kalnia Extended Bold') [code: does-not]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -592,7 +588,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 6 | 57 | 843 | 49 | 733 | 0 |
+| 0 | 5 | 57 | 843 | 49 | 734 | 0 |
 | 0% | 0% | 3% | 50% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
