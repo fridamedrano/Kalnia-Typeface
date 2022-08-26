@@ -122,7 +122,11 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
  * B (U+0042): L<<316.0,376.0>--<572.0,378.0>>
  * B (U+0042): L<<572.0,363.0>--<316.0,365.0>> and four (U+0034): L<<839.0,203.0>--<997.0,204.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] KalniaExtended-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsSelection value. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fsselection">com.google.fonts/check/fsselection</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] KalniaExtended-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2 usWeightClass is '528' when it should be '700'. [code: bad-value]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsSelection value. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fsselection">com.google.fonts/check/fsselection</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2 fsSelection REGULAR bit should be unset. [code: bad-REGULAR]
@@ -184,37 +188,37 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* exclam (U+0021): X=482.0,Y=-0.5 (should be at baseline 0?)
-	* exclam (U+0021): X=214.5,Y=-0.5 (should be at baseline 0?)
-	* dollar (U+0024): X=638.0,Y=1.0 (should be at baseline 0?)
-	* dollar (U+0024): X=566.0,Y=709.0 (should be at cap-height 708?)
-	* ampersand (U+0026): X=855.5,Y=709.5 (should be at cap-height 708?)
-	* parenleft (U+0028): X=361.0,Y=708.5 (should be at cap-height 708?)
-	* parenright (U+0029): X=559.0,Y=708.5 (should be at cap-height 708?)
-	* comma (U+002C): X=157.5,Y=-0.5 (should be at baseline 0?)
-	* period (U+002E): X=425.0,Y=-0.5 (should be at baseline 0?)
-	* period (U+002E): X=157.5,Y=-0.5 (should be at baseline 0?) and 71 more.
+	* dollar (U+0024): X=622.0,Y=1.0 (should be at baseline 0?)
+	* dollar (U+0024): X=563.0,Y=709.0 (should be at cap-height 708?)
+	* ampersand (U+0026): X=800.0,Y=709.0 (should be at cap-height 708?)
+	* three (U+0033): X=331.0,Y=-1.0 (should be at baseline 0?)
+	* three (U+0033): X=437.0,Y=2.0 (should be at baseline 0?)
+	* three (U+0033): X=440.0,Y=707.0 (should be at cap-height 708?)
+	* three (U+0033): X=332.0,Y=710.0 (should be at cap-height 708?)
+	* five (U+0035): X=359.0,Y=2.0 (should be at baseline 0?)
+	* six (U+0036): X=846.0,Y=706.0 (should be at cap-height 708?)
+	* seven (U+0037): X=587.0,Y=709.0 (should be at cap-height 708?) and 79 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* fi (U+FB01): L<<580.0,500.0>--<697.0,495.0>> -> L<<697.0,495.0>--<1318.0,515.0>> [code: found-colinear-vectors]
+	* fi (U+FB01): L<<500.0,500.0>--<654.0,494.0>> -> L<<654.0,494.0>--<1183.0,515.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * AE (U+00C6): L<<1188.0,15.0>--<1343.0,16.0>>
- * AE (U+00C6): L<<1343.0,692.0>--<1188.0,693.0>>
- * E (U+0045): L<<590.0,15.0>--<745.0,16.0>>
- * E (U+0045): L<<745.0,692.0>--<590.0,693.0>>
- * Eacute (U+00C9): L<<590.0,15.0>--<745.0,16.0>>
- * Eacute (U+00C9): L<<745.0,692.0>--<590.0,693.0>>
- * Ecircumflex (U+00CA): L<<590.0,15.0>--<745.0,16.0>>
- * Ecircumflex (U+00CA): L<<745.0,692.0>--<590.0,693.0>>
- * Edieresis (U+00CB): L<<590.0,15.0>--<745.0,16.0>>
- * Edieresis (U+00CB): L<<745.0,692.0>--<590.0,693.0>> and 9 more.
+ * AE (U+00C6): L<<1047.0,15.0>--<1324.0,16.0>>
+ * AE (U+00C6): L<<1319.0,692.0>--<1047.0,693.0>>
+ * E (U+0045): L<<499.0,15.0>--<775.0,16.0>>
+ * E (U+0045): L<<771.0,692.0>--<499.0,693.0>>
+ * Eacute (U+00C9): L<<499.0,15.0>--<775.0,16.0>>
+ * Eacute (U+00C9): L<<771.0,692.0>--<499.0,693.0>>
+ * Ecircumflex (U+00CA): L<<499.0,15.0>--<775.0,16.0>>
+ * Ecircumflex (U+00CA): L<<771.0,692.0>--<499.0,693.0>>
+ * Edieresis (U+00CB): L<<499.0,15.0>--<775.0,16.0>>
+ * Edieresis (U+00CB): L<<771.0,692.0>--<499.0,693.0>> and 9 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[7] KalniaExtended-Thin.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
@@ -435,7 +439,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
  * Edieresis (U+00CB): L<<441.0,692.0>--<249.0,693.0>> and 17 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] KalniaExtended-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] KalniaExtended-Expanded.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+
+
+* 🔥 **FAIL** Style name used in "fonts/ttf/KalniaExtended-Expanded.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -453,6 +461,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 	- k + l
 
    [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
+
+
+* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+ FONT_FAMILY_NAME = 'Kalnia Extended Expanded' / SUBFAMILY_NAME = 'Regular'
+
+Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -588,7 +603,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 5 | 57 | 843 | 49 | 734 | 0 |
+| 0 | 7 | 58 | 851 | 49 | 723 | 0 |
 | 0% | 0% | 3% | 50% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
