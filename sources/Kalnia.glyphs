@@ -39437,7 +39437,7 @@ interpolationWidth = 125;
 instanceInterpolations = {
 "35A90D60-3AD4-435C-9F8B-D1CA483F6F66" = 1;
 };
-name = Thin;
+name = "Extended Thin";
 weightClass = Thin;
 widthClass = Expanded;
 },
@@ -39471,7 +39471,7 @@ instanceInterpolations = {
 "35A90D60-3AD4-435C-9F8B-D1CA483F6F66" = 0.75;
 "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47" = 0.25;
 };
-name = Light;
+name = "Extended Light";
 weightClass = Light;
 widthClass = Expanded;
 },
@@ -39505,7 +39505,7 @@ instanceInterpolations = {
 "35A90D60-3AD4-435C-9F8B-D1CA483F6F66" = 0.4375;
 "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47" = 0.5625;
 };
-name = Regular;
+name = "Extended Regular";
 widthClass = Expanded;
 },
 {
@@ -39538,6 +39538,10 @@ value = "1 3;Kalnia";
 {
 name = "Name Table Entry";
 value = "16 3;";
+},
+{
+name = "Name Table Entry";
+value = "4;Kalnia Extended Bold";
 }
 );
 interpolationWeight = 900;
@@ -39547,7 +39551,7 @@ instanceInterpolations = {
 };
 isBold = 1;
 linkStyle = Extended;
-name = Bold;
+name = "Extended Bold";
 weightClass = Bold;
 widthClass = Expanded;
 }
