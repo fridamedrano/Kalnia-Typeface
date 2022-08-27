@@ -39425,8 +39425,12 @@ Location = 125;
 );
 },
 {
-name = familyName;
-value = "Kalnia Extended";
+name = "Name Table Entry";
+value = "16;Kalnia Extended";
+},
+{
+name = "Name Table Entry";
+value = "17;Thin";
 }
 );
 interpolationWidth = 125;
@@ -39453,8 +39457,12 @@ Location = 125;
 );
 },
 {
-name = familyName;
-value = "Kalnia Extended";
+name = "Name Table Entry";
+value = "16;Kalnia Extended";
+},
+{
+name = "Name Table Entry";
+value = "17;Light";
 }
 );
 interpolationWeight = 300;
@@ -39483,8 +39491,12 @@ Location = 125;
 );
 },
 {
-name = familyName;
-value = "Kalnia Extended";
+name = "Name Table Entry";
+value = "16;Kalnia Extended";
+},
+{
+name = "Name Table Entry";
+value = "17;Regular";
 }
 );
 interpolationWeight = 550;
@@ -39512,8 +39524,12 @@ Location = 125;
 );
 },
 {
-name = familyName;
-value = "Kalnia Extended";
+name = "Name Table Entry";
+value = "16;Kalnia Extended";
+},
+{
+name = "Name Table Entry";
+value = "17;Bold";
 }
 );
 interpolationWeight = 900;
