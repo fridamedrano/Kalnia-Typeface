@@ -35,9 +35,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- periodcentered.loclCAT
-	- periodcentered.loclCAT.case 
-	- And i.loclTRK
+	- periodcentered.loclCAT.case
+	- i.loclTRK 
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -93,9 +93,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- periodcentered.loclCAT
-	- periodcentered.loclCAT.case 
-	- And i.loclTRK
+	- periodcentered.loclCAT.case
+	- i.loclTRK 
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -166,9 +166,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- periodcentered.loclCAT
-	- periodcentered.loclCAT.case 
-	- And i.loclTRK
+	- periodcentered.loclCAT.case
+	- i.loclTRK 
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -244,9 +244,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- periodcentered.loclCAT
-	- periodcentered.loclCAT.case 
-	- And i.loclTRK
+	- periodcentered.loclCAT.case
+	- i.loclTRK 
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -322,9 +322,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- periodcentered.loclCAT
-	- periodcentered.loclCAT.case 
-	- And i.loclTRK
+	- periodcentered.loclCAT.case
+	- i.loclTRK 
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -386,9 +386,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- periodcentered.loclCAT
-	- periodcentered.loclCAT.case 
-	- And i.loclTRK
+	- periodcentered.loclCAT.case
+	- i.loclTRK 
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -455,9 +455,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- periodcentered.loclCAT
-	- periodcentered.loclCAT.case 
-	- And i.loclTRK
+	- periodcentered.loclCAT.case
+	- i.loclTRK 
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -547,9 +547,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- periodcentered.loclCAT
-	- periodcentered.loclCAT.case 
-	- And i.loclTRK
+	- periodcentered.loclCAT.case
+	- i.loclTRK 
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -625,9 +625,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- periodcentered.loclCAT
-	- periodcentered.loclCAT.case 
-	- And i.loclTRK
+	- periodcentered.loclCAT.case
+	- i.loclTRK 
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -682,9 +682,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- periodcentered.loclCAT
-	- periodcentered.loclCAT.case 
-	- And i.loclTRK
+	- periodcentered.loclCAT.case
+	- i.loclTRK 
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -739,9 +739,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- periodcentered.loclCAT
-	- periodcentered.loclCAT.case 
-	- And i.loclTRK
+	- periodcentered.loclCAT.case
+	- i.loclTRK 
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -796,9 +796,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- periodcentered.loclCAT
-	- periodcentered.loclCAT.case 
-	- And i.loclTRK
+	- periodcentered.loclCAT.case
+	- i.loclTRK 
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -865,9 +865,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- periodcentered.loclCAT
-	- periodcentered.loclCAT.case 
-	- And i.loclTRK
+	- periodcentered.loclCAT.case
+	- i.loclTRK 
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -927,9 +927,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- periodcentered.loclCAT
-	- periodcentered.loclCAT.case 
-	- And i.loclTRK
+	- periodcentered.loclCAT.case
+	- i.loclTRK 
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
