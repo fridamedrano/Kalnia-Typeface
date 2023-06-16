@@ -11,7 +11,7 @@ A,
 "jfj/f_j.liga/f_f.liga ß/f_k.liga/f_b.liga/f_h.liga/fi/fl/REPLACEMENTCHARACTER */dagger/florin/daggerdbl &§?¿{}()£®/trademark ©@/tilde pþqdðeæ4/foursuperior 3³2²69875432/mu ¹ªºyxvwskgurz/eng nm/Germandbls SJK/Eng XUVW/OE YTZFELDBPÞRAÁ/Abreve/Acaron ÂÄÀ/Amacron/Aogonek ÅÃÆC/Cacute/Ccaron Ç/Cdotaccent Ð/Dcaron/Dcroat É/Ecaron ÊË/Edotaccent È/Emacron/Eogonek G/Gbreve/Gcommaaccent/Gdotaccent H/Hbar I/IJ ÍÎÏ/Idotaccent Ì/Imacron/Iogonek/Kcommaaccent/Lacute/Lcaron/Lcommaaccent/Lslash MN/Nacute/Ncaron/Ncommaaccent ÑOÓÔÖÒ/Ohungarumlaut/Omacron ØÕQ/Racute/Rcaron/Rcommaaccent/Sacute/Scaron/Scedilla/Scommaaccent/Tcaron/Tcommaaccent Ú/Ubreve ÛÜÙ/Uhungarumlaut/Umacron/Uogonek/Uring/Wacute/Wcircumflex/Wdieresis/Wgrave Ý/Ycircumflex/Ydieresis/Ygrave/Zacute/Zcaron/Zdotaccent aá/abreve/acaron âäà/amacron/aogonek åãbc/cacute/ccaron ç/cdotaccent/dcaron/dcroat é/ecaron êë/edotaccent è/emacron/eogonek/gbreve/gcommaaccent/gdotaccent h/hbar i/idotless íîï/idotaccent ì/ij/imacron/iogonek/jdotless/kcommaaccent l/lacute/lcaron/lcommaaccent/lslash/nacute/ncaron/ncommaaccent ñoóôöò/ohungarumlaut/omacron øõ/oe/racute/rcaron/rcommaaccent/sacute/scaron/scedilla/scommaaccent t/tcaron/tcommaaccent ú/ubreve ûüù/uhungarumlaut/umacron/uogonek/uring/wacute/wcircumflex/wdieresis/wgrave ý/ycircumflex/ydieresis/ygrave/zacute/zcaron/zdotaccent 01/fraction ½¼¾\015/.notdef/ENSPACE/THINSPACE/ZEROWIDTH/space/nbspace .,:;/ellipsis !¡·/bullet *#///backslash/periodcentered.loclCAT/periodcentered.loclCAT.case -­/endash/emdash _[]/quotesinglbase/quotedblbase/quotedblleft/quotedblright/quoteleft/quoteright «»/guilsinglleft/guilsinglright \"'¶°/prime/primedbl |¦¢¤$/euro ¥/divisionslash +/minus ×÷=/notequal ></greaterequal/lessequal ±/approxequal ~¬^µ%/perthousand/uparrow/downarrow/dottedCircle/dieresiscomb/dotaccentcomb/gravecomb/acutecomb/hungarumlautcomb/caroncomb.alt/circumflexcomb/caroncomb/brevecomb/ringcomb/tildecomb/macroncomb/commaturnedabovecomb/commaaccentcomb/cedillacomb/ogonekcomb ¨/dotaccent `´/hungarumlaut/circumflex/caron/breve/ring ¯¸/ogonek/MODIFIERLETTERAPOSTROPHE/MODIFIERLETTERTURNEDCOMMA ,",
 "/f_b.liga/space/f_f.liga/space/f_h.liga/space/f_j.liga/space/f_k.liga/space/fi/space/fl \012fb/space ff/space fh/space fj/space fk/space fi/space fl",
 "",
-"­"
+"/endash ­"
 );
 classes = (
 {
@@ -38165,14 +38165,9 @@ unicode = 002D;
 {
 color = 5;
 glyphname = uni00AD;
-lastChange = "2023-06-16 22:57:55 +0000";
+lastChange = "2023-06-16 23:20:25 +0000";
 layers = (
 {
-components = (
-{
-name = endash;
-}
-);
 layerId = "A5088515-37FF-452F-BD44-18A7A5EF88F0";
 userData = {
 com.fontlab.hintData = {
@@ -38193,11 +38188,6 @@ width = 516;
 width = 660;
 },
 {
-components = (
-{
-name = endash;
-}
-);
 layerId = "2660E96A-9963-4076-AFCB-E451BC6EE103";
 userData = {
 com.fontlab.hintData = {
@@ -38218,11 +38208,6 @@ width = 516;
 width = 660;
 },
 {
-components = (
-{
-name = endash;
-}
-);
 layerId = "35A90D60-3AD4-435C-9F8B-D1CA483F6F66";
 userData = {
 com.fontlab.hintData = {
@@ -38243,13 +38228,8 @@ width = 516;
 width = 860;
 },
 {
-components = (
-{
-name = endash;
-}
-);
 layerId = "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47";
-width = 860;
+width = 0;
 }
 );
 unicode = 00AD;
