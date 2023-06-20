@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>89</td>
+                <td>1459</td>
+                <td>85</td>
+                <td>1309</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>0%</td>
+                <td>4%</td>
+                <td>64%</td>
+                <td>4%</td>
+                <td>57%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
+<h2>&lt;Section: Google Fonts&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Checking OS/2 achVendID.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/vendor_id&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+[code: unknown]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+[code: unknown]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+[code: unknown]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+[code: unknown]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+[code: unknown]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+[code: unknown]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+[code: unknown]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+[code: unknown]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+[code: unknown]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+[code: unknown]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+[code: unknown]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+[code: unknown]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+[code: unknown]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+[code: unknown]</p>
+</span></li></ul></div></details>
+<h3>Is there kerning info for non-ligated sequences?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/kerning_for_non_ligated_sequences&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + b
+- b + f
+- f + h
+- h + i
+- i + j
+- j + k
+- k + l</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + b
+- b + f
+- f + h
+- h + i
+- i + j
+- j + k
+- k + l</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + b
+- b + f
+- f + h
+- h + i
+- i + j
+- j + k
+- k + l</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + b
+- b + f
+- f + h
+- h + i
+- i + j
+- j + k
+- k + l</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + b
+- b + f
+- f + h
+- h + i
+- i + j
+- j + k
+- k + l</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + b
+- b + f
+- f + h
+- h + i
+- i + j
+- j + k
+- k + l</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + b
+- b + f
+- f + h
+- h + i
+- i + j
+- j + k
+- k + l</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + b
+- b + f
+- f + h
+- h + i
+- i + j
+- j + k
+- k + l</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + b
+- b + f
+- f + h
+- h + i
+- i + j
+- j + k
+- k + l</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + b
+- b + f
+- f + h
+- h + i
+- i + j
+- j + k
+- k + l</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + b
+- b + f
+- f + h
+- h + i
+- i + j
+- j + k
+- k + l</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + b
+- b + f
+- f + h
+- h + i
+- i + j
+- j + k
+- k + l</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + b
+- b + f
+- f + h
+- h + i
+- i + j
+- j + k
+- k + l</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + b
+- b + f
+- f + h
+- h + i
+- i + j
+- j + k
+- k + l</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<h3>Combined length of family and style must not exceed 27 characters.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/family_and_style_max_length&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Kalnia Extended ExtraLight' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Kalnia Extended Medium' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Kalnia Extended Light' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Kalnia Extended SemiBold' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Check if each glyph has the recommended amount of contours.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/contour_count&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+- And 4 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+- And 4 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+- And 4 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+- And 4 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+- And 4 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+- And 4 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+- And 4 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: AE	Contours detected: 1	Expected: 2
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+- Glyph name: AE	Contours detected: 1	Expected: 2
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: NULL	Contours detected: 3	Expected: 0 
+- And 6 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+- And 4 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+- And 4 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+- And 4 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+- And 4 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+- And 4 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+- Glyph name: NULL	Contours detected: 3	Expected: 0
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+- And 4 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: contour-count]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️</h2>
+<h3>Are there any misaligned on-curve points?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* dollar (U+0024): X=168.5,Y=2.0 (should be at baseline 0?)
+* dollar (U+0024): X=469.5,Y=2.0 (should be at baseline 0?)
+* ampersand (U+0026): X=622.0,Y=1.0 (should be at baseline 0?)
+* three (U+0033): X=238.0,Y=706.0 (should be at cap-height 708?)
+* G (U+0047): X=516.5,Y=-1.5 (should be at baseline 0?)
+* a (U+0061): X=218.5,Y=502.0 (should be at x-height 500?)
+* b (U+0062): X=420.0,Y=502.0 (should be at x-height 500?)
+* b (U+0062): X=470.0,Y=-0.5 (should be at baseline 0?)
+* b (U+0062): X=264.0,Y=2.0 (should be at baseline 0?)
+* c (U+0063): X=462.0,Y=499.5 (should be at x-height 500?) and 81 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* ampersand (U+0026): X=1071.0,Y=2.0 (should be at baseline 0?)
+* ampersand (U+0026): X=950.0,Y=1.5 (should be at baseline 0?)
+* parenleft (U+0028): X=264.5,Y=-0.5 (should be at baseline 0?)
+* parenright (U+0029): X=294.5,Y=-0.5 (should be at baseline 0?)
+* two (U+0032): X=329.5,Y=710.0 (should be at cap-height 708?)
+* three (U+0033): X=300.5,Y=2.0 (should be at baseline 0?)
+* three (U+0033): X=305.5,Y=706.0 (should be at cap-height 708?)
+* five (U+0035): X=326.5,Y=2.0 (should be at baseline 0?)
+* seven (U+0037): X=884.5,Y=706.0 (should be at cap-height 708?)
+* G (U+0047): X=777.5,Y=0.5 (should be at baseline 0?) and 67 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* ampersand (U+0026): X=481.5,Y=710.0 (should be at cap-height 708?)
+* two (U+0032): X=336.0,Y=1.5 (should be at baseline 0?)
+* three (U+0033): X=261.0,Y=2.0 (should be at baseline 0?)
+* three (U+0033): X=264.0,Y=707.0 (should be at cap-height 708?)
+* six (U+0036): X=395.0,Y=706.0 (should be at cap-height 708?)
+* seven (U+0037): X=584.0,Y=706.0 (should be at cap-height 708?)
+* nine (U+0039): X=252.0,Y=2.0 (should be at baseline 0?)
+* C (U+0043): X=380.0,Y=710.0 (should be at cap-height 708?)
+* G (U+0047): X=376.0,Y=710.0 (should be at cap-height 708?)
+* O (U+004F): X=389.0,Y=-2.0 (should be at baseline 0?) and 48 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* ampersand (U+0026): X=640.5,Y=1.5 (should be at baseline 0?)
+* comma (U+002C): X=68.0,Y=-2.0 (should be at baseline 0?)
+* two (U+0032): X=87.5,Y=-2.0 (should be at baseline 0?)
+* two (U+0032): X=202.0,Y=706.0 (should be at cap-height 708?)
+* three (U+0033): X=192.0,Y=2.0 (should be at baseline 0?)
+* three (U+0033): X=195.0,Y=706.0 (should be at cap-height 708?)
+* five (U+0035): X=207.0,Y=2.0 (should be at baseline 0?)
+* seven (U+0037): X=544.5,Y=706.0 (should be at cap-height 708?)
+* semicolon (U+003B): X=68.0,Y=-2.0 (should be at baseline 0?)
+* G (U+0047): X=511.0,Y=2.0 (should be at baseline 0?) and 25 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* dollar (U+0024): X=610.0,Y=1.0 (should be at baseline 0?)
+* dollar (U+0024): X=561.0,Y=709.0 (should be at cap-height 708?)
+* ampersand (U+0026): X=760.0,Y=709.0 (should be at cap-height 708?)
+* two (U+0032): X=550.5,Y=-1.0 (should be at baseline 0?)
+* three (U+0033): X=446.0,Y=2.0 (should be at baseline 0?)
+* three (U+0033): X=450.0,Y=707.0 (should be at cap-height 708?)
+* three (U+0033): X=325.5,Y=708.5 (should be at cap-height 708?)
+* four (U+0034): X=207.5,Y=706.5 (should be at cap-height 708?)
+* five (U+0035): X=351.5,Y=2.0 (should be at baseline 0?)
+* six (U+0036): X=768.0,Y=706.0 (should be at cap-height 708?) and 76 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<h3>Do any segments have colinear vectors?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_colinear_vectors&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:
+* W (U+0057): L&lt;&lt;816.0,471.0&gt;--&lt;831.0,494.0&gt;&gt; -&gt; L&lt;&lt;831.0,494.0&gt;--&lt;865.0,555.0&gt;&gt;
+* Wacute (U+1E82): L&lt;&lt;816.0,471.0&gt;--&lt;831.0,494.0&gt;&gt; -&gt; L&lt;&lt;831.0,494.0&gt;--&lt;865.0,555.0&gt;&gt;
+* Wcircumflex (U+0174): L&lt;&lt;816.0,471.0&gt;--&lt;831.0,494.0&gt;&gt; -&gt; L&lt;&lt;831.0,494.0&gt;--&lt;865.0,555.0&gt;&gt;
+* Wdieresis (U+1E84): L&lt;&lt;816.0,471.0&gt;--&lt;831.0,494.0&gt;&gt; -&gt; L&lt;&lt;831.0,494.0&gt;--&lt;865.0,555.0&gt;&gt; and Wgrave (U+1E80): L&lt;&lt;816.0,471.0&gt;--&lt;831.0,494.0&gt;&gt; -&gt; L&lt;&lt;831.0,494.0&gt;--&lt;865.0,555.0&gt;&gt; [code: found-colinear-vectors]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:
+* ampersand (U+0026): L&lt;&lt;440.0,164.0&gt;--&lt;439.0,165.0&gt;&gt; -&gt; L&lt;&lt;439.0,165.0&gt;--&lt;232.0,380.0&gt;&gt; [code: found-colinear-vectors]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:
+* fi (U+FB01): L&lt;&lt;580.0,500.0&gt;--&lt;697.0,495.0&gt;&gt; -&gt; L&lt;&lt;697.0,495.0&gt;--&lt;1318.0,515.0&gt;&gt; [code: found-colinear-vectors]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:
+* four (U+0034): L&lt;&lt;720.0,204.0&gt;--&lt;720.0,546.0&gt;&gt; -&gt; L&lt;&lt;720.0,546.0&gt;--&lt;725.0,724.0&gt;&gt;
+* onequarter (U+00BC): L&lt;&lt;566.0,93.0&gt;--&lt;566.0,230.0&gt;&gt; -&gt; L&lt;&lt;566.0,230.0&gt;--&lt;567.0,302.0&gt;&gt;
+* threequarters (U+00BE): L&lt;&lt;697.0,93.0&gt;--&lt;697.0,230.0&gt;&gt; -&gt; L&lt;&lt;697.0,230.0&gt;--&lt;698.0,302.0&gt;&gt; and uni2074 (U+2074): L&lt;&lt;293.0,509.0&gt;--&lt;293.0,646.0&gt;&gt; -&gt; L&lt;&lt;293.0,646.0&gt;--&lt;294.0,718.0&gt;&gt; [code: found-colinear-vectors]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:
+* cent (U+00A2): L&lt;&lt;324.0,541.0&gt;--&lt;324.0,541.0&gt;&gt; -&gt; L&lt;&lt;324.0,541.0&gt;--&lt;324.0,541.0&gt;&gt; [code: found-colinear-vectors]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:
+* Euro (U+20AC): L&lt;&lt;270.0,394.0&gt;--&lt;270.0,394.0&gt;&gt; -&gt; L&lt;&lt;270.0,394.0&gt;--&lt;535.0,394.0&gt;&gt; [code: found-colinear-vectors]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:
+* four (U+0034): L&lt;&lt;410.0,204.0&gt;--&lt;410.0,546.0&gt;&gt; -&gt; L&lt;&lt;410.0,546.0&gt;--&lt;415.0,724.0&gt;&gt;
+* onequarter (U+00BC): L&lt;&lt;392.0,93.0&gt;--&lt;392.0,230.0&gt;&gt; -&gt; L&lt;&lt;392.0,230.0&gt;--&lt;395.0,302.0&gt;&gt;
+* threequarters (U+00BE): L&lt;&lt;502.0,93.0&gt;--&lt;502.0,230.0&gt;&gt; -&gt; L&lt;&lt;502.0,230.0&gt;--&lt;505.0,302.0&gt;&gt; and uni2074 (U+2074): L&lt;&lt;171.0,509.0&gt;--&lt;171.0,646.0&gt;&gt; -&gt; L&lt;&lt;171.0,646.0&gt;--&lt;174.0,718.0&gt;&gt; [code: found-colinear-vectors]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:
+* fi (U+FB01): L&lt;&lt;442.0,500.0&gt;--&lt;623.0,492.0&gt;&gt; -&gt; L&lt;&lt;623.0,492.0&gt;--&lt;1086.0,515.0&gt;&gt; [code: found-colinear-vectors]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:
+* fi (U+FB01): L&lt;&lt;398.0,500.0&gt;--&lt;599.0,492.0&gt;&gt; -&gt; L&lt;&lt;599.0,492.0&gt;--&lt;1013.0,515.0&gt;&gt; [code: found-colinear-vectors]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:
+* fi (U+FB01): L&lt;&lt;514.0,500.0&gt;--&lt;662.0,494.0&gt;&gt; -&gt; L&lt;&lt;662.0,494.0&gt;--&lt;1208.0,515.0&gt;&gt; [code: found-colinear-vectors]</p>
+</span></li></ul></div></details>
+<h3>Do outlines contain any jaggy segments?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:
+* seven (U+0037): L&lt;&lt;81.0,708.0&gt;--&lt;80.0,588.0&gt;&gt;/B&lt;&lt;80.0,588.0&gt;-&lt;94.0,662.0&gt;-&lt;126.0,692.5&gt;&gt; = 10.235669245481464 [code: found-jaggy-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:
+* seven (U+0037): L&lt;&lt;55.0,708.0&gt;--&lt;50.0,562.0&gt;&gt;/B&lt;&lt;50.0,562.0&gt;-&lt;70.0,639.0&gt;-&lt;128.0,681.0&gt;&gt; = 12.598857951586536 [code: found-jaggy-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:
+* seven (U+0037): L&lt;&lt;61.0,708.0&gt;--&lt;57.0,568.0&gt;&gt;/B&lt;&lt;57.0,568.0&gt;-&lt;95.0,723.0&gt;-&lt;262.0,723.0&gt;&gt; = 12.138441278057911 [code: found-jaggy-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:
+* Abreve (U+0102): B&lt;&lt;379.0,862.0&gt;-&lt;388.0,862.0&gt;-&lt;400.0,916.0&gt;&gt;/L&lt;&lt;400.0,916.0&gt;--&lt;398.0,906.0&gt;&gt; = 1.2188752351313326
+* Abreve (U+0102): L&lt;&lt;360.0,906.0&gt;--&lt;358.0,916.0&gt;&gt;/B&lt;&lt;358.0,916.0&gt;-&lt;370.0,862.0&gt;-&lt;379.0,862.0&gt;&gt; = 1.2188752351313326
+* Gbreve (U+011E): B&lt;&lt;385.0,862.0&gt;-&lt;394.0,862.0&gt;-&lt;406.0,916.0&gt;&gt;/L&lt;&lt;406.0,916.0&gt;--&lt;404.0,906.0&gt;&gt; = 1.2188752351313326
+* Gbreve (U+011E): L&lt;&lt;366.0,906.0&gt;--&lt;364.0,916.0&gt;&gt;/B&lt;&lt;364.0,916.0&gt;-&lt;376.0,862.0&gt;-&lt;385.0,862.0&gt;&gt; = 1.2188752351313326
+* Ubreve (U+016C): B&lt;&lt;381.0,862.0&gt;-&lt;390.0,862.0&gt;-&lt;402.0,916.0&gt;&gt;/L&lt;&lt;402.0,916.0&gt;--&lt;400.0,906.0&gt;&gt; = 1.2188752351313326
+* Ubreve (U+016C): L&lt;&lt;362.0,906.0&gt;--&lt;360.0,916.0&gt;&gt;/B&lt;&lt;360.0,916.0&gt;-&lt;372.0,862.0&gt;-&lt;381.0,862.0&gt;&gt; = 1.2188752351313326
+* abreve (U+0103): B&lt;&lt;303.0,654.0&gt;-&lt;312.0,654.0&gt;-&lt;324.0,708.0&gt;&gt;/L&lt;&lt;324.0,708.0&gt;--&lt;322.0,698.0&gt;&gt; = 1.2188752351313326
+* abreve (U+0103): L&lt;&lt;284.0,698.0&gt;--&lt;282.0,708.0&gt;&gt;/B&lt;&lt;282.0,708.0&gt;-&lt;294.0,654.0&gt;-&lt;303.0,654.0&gt;&gt; = 1.2188752351313326
+* breve (U+02D8): B&lt;&lt;210.0,654.0&gt;-&lt;219.0,654.0&gt;-&lt;231.0,708.0&gt;&gt;/L&lt;&lt;231.0,708.0&gt;--&lt;229.0,698.0&gt;&gt; = 1.2188752351313326
+* breve (U+02D8): L&lt;&lt;191.0,698.0&gt;--&lt;190.0,708.0&gt;&gt;/B&lt;&lt;190.0,708.0&gt;-&lt;202.0,654.0&gt;-&lt;210.0,654.0&gt;&gt; = 6.818214571651848 and 9 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:
+* seven (U+0037): L&lt;&lt;68.0,708.0&gt;--&lt;65.0,575.0&gt;&gt;/B&lt;&lt;65.0,575.0&gt;-&lt;99.0,723.0&gt;-&lt;248.0,723.0&gt;&gt; = 11.64588943093649 [code: found-jaggy-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:
+* seven (U+0037): L&lt;&lt;79.0,708.0&gt;--&lt;77.0,586.0&gt;&gt;/B&lt;&lt;77.0,586.0&gt;-&lt;92.0,660.0&gt;-&lt;126.5,691.5&gt;&gt; = 10.519561400141608 [code: found-jaggy-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:
+* seven (U+0037): L&lt;&lt;85.0,708.0&gt;--&lt;84.0,592.0&gt;&gt;/B&lt;&lt;84.0,592.0&gt;-&lt;98.0,666.0&gt;-&lt;126.5,694.5&gt;&gt; = 10.219206124172278 [code: found-jaggy-segments]</p>
+</span></li></ul></div></details>
+<h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>seven (U+0037): L&lt;&lt;81.0,708.0&gt;--&lt;80.0,588.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>AE (U+00C6): L&lt;&lt;1354.0,97.0&gt;--&lt;1353.0,248.0&gt;&gt;</li>
+<li>B (U+0042): L&lt;&lt;557.0,362.0&gt;--&lt;267.0,364.0&gt;&gt;</li>
+<li>OE (U+0152): L&lt;&lt;1537.0,97.0&gt;--&lt;1536.0,248.0&gt;&gt;</li>
+<li>four (U+0034): L&lt;&lt;784.0,203.0&gt;--&lt;951.0,204.0&gt;&gt;</li>
+<li>four (U+0034): L&lt;&lt;83.0,198.0&gt;--&lt;711.0,202.0&gt;&gt; and seven (U+0037): L&lt;&lt;101.0,708.0&gt;--&lt;100.0,588.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>H (U+0048): L&lt;&lt;225.0,342.0&gt;--&lt;945.0,348.0&gt;&gt;</li>
+<li>Hbar (U+0126): L&lt;&lt;225.0,342.0&gt;--&lt;945.0,348.0&gt;&gt;</li>
+<li>ae (U+00E6): L&lt;&lt;785.0,286.0&gt;--&lt;1545.0,290.0&gt;&gt;</li>
+<li>e (U+0065): L&lt;&lt;83.0,286.0&gt;--&lt;843.0,290.0&gt;&gt;</li>
+<li>eacute (U+00E9): L&lt;&lt;83.0,286.0&gt;--&lt;843.0,290.0&gt;&gt;</li>
+<li>ecaron (U+011B): L&lt;&lt;83.0,286.0&gt;--&lt;843.0,290.0&gt;&gt;</li>
+<li>ecircumflex (U+00EA): L&lt;&lt;83.0,286.0&gt;--&lt;843.0,290.0&gt;&gt;</li>
+<li>edieresis (U+00EB): L&lt;&lt;83.0,286.0&gt;--&lt;843.0,290.0&gt;&gt;</li>
+<li>edotaccent (U+0117): L&lt;&lt;83.0,286.0&gt;--&lt;843.0,290.0&gt;&gt;</li>
+<li>egrave (U+00E8): L&lt;&lt;83.0,286.0&gt;--&lt;843.0,290.0&gt;&gt; and 6 more.</li>
+</ul>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Kalnia-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>seven (U+0037): L&lt;&lt;85.0,708.0&gt;--&lt;84.0,592.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>four (U+0034): L&lt;&lt;973.0,201.0&gt;--&lt;1107.0,202.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>four (U+0034): L&lt;&lt;822.0,203.0&gt;--&lt;982.0,204.0&gt;&gt;</li>
+<li>four (U+0034): L&lt;&lt;83.0,196.0&gt;--&lt;704.0,201.0&gt;&gt; and seven (U+0037): L&lt;&lt;97.0,708.0&gt;--&lt;96.0,586.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/KalniaExtended-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>B (U+0042): L&lt;&lt;632.0,366.0&gt;--&lt;515.0,367.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+                    </body>
+                </html>
