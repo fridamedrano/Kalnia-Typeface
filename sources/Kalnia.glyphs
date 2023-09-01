@@ -1,5 +1,5 @@
 {
-.appVersion = "3208";
+.appVersion = "3151";
 DisplayStrings = (
 R,
 W,
@@ -293,7 +293,7 @@ alignmentZones = (
 );
 ascender = 931;
 capHeight = 708;
-custom = Thin;
+custom = "Expanded Thin";
 customParameters = (
 {
 name = typoLineGap;
@@ -323,7 +323,6 @@ verticalStems = (
 15
 );
 weightValue = 14;
-width = Extended;
 widthValue = 125;
 xHeight = 500;
 },
@@ -337,6 +336,7 @@ alignmentZones = (
 );
 ascender = 931;
 capHeight = 708;
+custom = Expanded;
 customParameters = (
 {
 name = typoLineGap;
@@ -354,7 +354,7 @@ horizontalStems = (
 );
 iconName = Bold_Extended;
 id = "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47";
-name = "Extended Bold";
+name = "Expanded Bold";
 userData = {
 GSCornerRadius = 350;
 GSOffsetHorizontal = 7;
@@ -368,7 +368,6 @@ verticalStems = (
 );
 weight = Bold;
 weightValue = 235;
-width = Extended;
 widthValue = 125;
 xHeight = 500;
 }
@@ -51692,7 +51691,7 @@ Location = 125;
 },
 {
 name = familyName;
-value = "Kalnia Extended";
+value = "Kalnia Expanded";
 }
 );
 interpolationWeight = 14;
@@ -51721,7 +51720,7 @@ Location = 125;
 },
 {
 name = familyName;
-value = "Kalnia Extended";
+value = "Kalnia Expanded";
 }
 );
 interpolationWeight = 40;
@@ -51751,7 +51750,7 @@ Location = 125;
 },
 {
 name = familyName;
-value = "Kalnia Extended";
+value = "Kalnia Expanded";
 }
 );
 interpolationWeight = 60;
@@ -51781,7 +51780,7 @@ Location = 125;
 },
 {
 name = familyName;
-value = "Kalnia Extended";
+value = "Kalnia Expanded";
 }
 );
 interpolationWeight = 110;
@@ -51810,7 +51809,7 @@ Location = 125;
 },
 {
 name = familyName;
-value = "Kalnia Extended";
+value = "Kalnia Expanded";
 }
 );
 interpolationWeight = 140;
@@ -51840,7 +51839,7 @@ Location = 125;
 },
 {
 name = familyName;
-value = "Kalnia Extended";
+value = "Kalnia Expanded";
 }
 );
 interpolationWeight = 190;
@@ -51870,7 +51869,7 @@ Location = 125;
 },
 {
 name = familyName;
-value = "Kalnia Extended";
+value = "Kalnia Expanded";
 },
 {
 name = styleName;
