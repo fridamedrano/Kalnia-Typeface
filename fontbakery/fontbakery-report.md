@@ -194,7 +194,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* nine (U+0039): X=252.0,Y=2.0 (should be at baseline 0?)
 	* C (U+0043): X=380.0,Y=710.0 (should be at cap-height 708?)
 	* G (U+0047): X=376.0,Y=710.0 (should be at cap-height 708?)
-	* O (U+004F): X=389.0,Y=-2.0 (should be at baseline 0?) and 48 more.
+	* O (U+004F): X=389.0,Y=-2.0 (should be at baseline 0?) and 51 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -1018,7 +1018,7 @@ The following glyphs do not have the recommended number of contours:
 	* b (U+0062): X=420.0,Y=502.0 (should be at x-height 500?)
 	* b (U+0062): X=470.0,Y=-0.5 (should be at baseline 0?)
 	* b (U+0062): X=264.0,Y=2.0 (should be at baseline 0?)
-	* c (U+0063): X=462.0,Y=499.5 (should be at x-height 500?) and 81 more.
+	* c (U+0063): X=462.0,Y=499.5 (should be at x-height 500?) and 83 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
