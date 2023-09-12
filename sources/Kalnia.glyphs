@@ -10,7 +10,8 @@ W,
 "&",
 "/upArrow/downArrow",
 "/caroncomb.alt/Lcaron/dcaron/lcaron/tcaron",
-"/Dcroat"
+"/Dcroat",
+"/perthousand"
 );
 classes = (
 {
@@ -46975,7 +46976,7 @@ unicode = 0025;
 {
 color = 4;
 glyphname = perthousand;
-lastChange = "2023-09-04 15:46:38 +0000";
+lastChange = "2023-09-12 04:05:30 +0000";
 layers = (
 {
 background = {
@@ -47026,7 +47027,7 @@ transform = "{1, 0, 0, 1, 412, 0}";
 }
 );
 layerId = "2660E96A-9963-4076-AFCB-E451BC6EE103";
-width = 1269;
+width = 1270;
 },
 {
 background = {
@@ -47077,7 +47078,7 @@ transform = "{1, 0, 0, 1, 788, 0}";
 }
 );
 layerId = "DF54607F-DD82-41E6-B2E3-81CA6D0E5C47";
-width = 2287;
+width = 2289;
 },
 {
 background = {
@@ -47128,7 +47129,7 @@ transform = "{1, 0, 0, 1, 334, 0}";
 }
 );
 layerId = "A5088515-37FF-452F-BD44-18A7A5EF88F0";
-width = 1098;
+width = 1099;
 },
 {
 background = {
