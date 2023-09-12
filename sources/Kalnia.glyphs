@@ -8,7 +8,8 @@ vw,
 "/space/brevecomb A/Abreve/acutecomb Á/Cacute ÉÍ/Lacute/Nacute Ó/Racute/Sacute Ú/Wacute Ý/Zacute á/cacute éí/lacute/nacute ó/racute/sacute ú/wacute ý/zacute/Gbreve/Ubreve/abreve/gbreve/ubreve",
 "á/abreve/acaron âäà/amacron/aogonek åã",
 "Ab/Abreve G/commaaccentcomb/Gcommaaccent gp",
-"/nbspace/space/Gcommaaccent/Gdotaccent OÓÔÖÒ/Ohungarumlaut/Omacron ØÕ"
+"/nbspace/space/Gcommaaccent/Gdotaccent OÓÔÖÒ/Ohungarumlaut/Omacron ØÕ",
+"co/ldot legiate"
 );
 classes = (
 {
@@ -217,11 +218,11 @@ custom = Thin;
 customParameters = (
 {
 name = typoAscender;
-value = 995;
+value = 1045;
 },
 {
 name = typoDescender;
-value = -250;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -229,11 +230,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 995;
+value = 1045;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -300;
 },
 {
 name = hheaLineGap;
@@ -283,11 +284,11 @@ capHeight = 708;
 customParameters = (
 {
 name = typoAscender;
-value = 995;
+value = 1045;
 },
 {
 name = typoDescender;
-value = -250;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -295,11 +296,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 995;
+value = 1045;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -300;
 },
 {
 name = hheaLineGap;
@@ -349,11 +350,11 @@ custom = "Expanded Thin";
 customParameters = (
 {
 name = typoAscender;
-value = 995;
+value = 1045;
 },
 {
 name = typoDescender;
-value = -250;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -361,11 +362,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 995;
+value = 1045;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -300;
 },
 {
 name = hheaLineGap;
@@ -416,11 +417,11 @@ custom = Expanded;
 customParameters = (
 {
 name = typoAscender;
-value = 995;
+value = 1045;
 },
 {
 name = typoDescender;
-value = -250;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -428,11 +429,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 995;
+value = 1045;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -300;
 },
 {
 name = hheaLineGap;
