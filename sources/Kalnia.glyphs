@@ -34,6 +34,10 @@ value = (
 );
 },
 {
+name = "meta Table";
+value = "{\012    data = Latn;\012    tag = dlng;\012}\012{\012    data = Latn;\012    tag = slng;\012}";
+},
+{
 name = description;
 value = "Kalnia is a display typeface with high contrast and delicate terminals for poster headlines inspired in the fat faces of the Victorian era. It’s a variable font with weight and width axes.";
 },
