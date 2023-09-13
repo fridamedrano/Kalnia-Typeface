@@ -5,13 +5,14 @@
 # skip down to the section headed "INITIALIZATION STEPS".
 
 from sh import git
+import datetime
 import re
 import sys
 from urllib.parse import quote
 import subprocess
 
 BASE_OWNER = "googlefonts"
-BASE_REPONAME = "Unified-Font-Repository"
+BASE_REPONAME = "googlefonts-project-template"
 DUMMY_URL = "https://yourname.github.io/your-font-repository-name"
 
 
@@ -105,6 +106,15 @@ readme = readme.replace(
 
 with open("README.md", "w") as fh:
     fh.write(readme)
+
+# Fix the OFL
+
+ofl = open("OFL.txt").read()
+ofl = ofl.replace(web_url(BASE_OWNER, BASE_REPONAME), web_url(owner, reponame))
+ofl = ofl.replace("My Font", reponame.title())
+ofl = ofl.replace("20**", str(datetime.date.today().year))
+with open("OFL.txt", "w") as fh:
+    fh.write(ofl)
 
 # Pin the dependencies
 print("Pinning dependencies")
