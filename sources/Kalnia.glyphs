@@ -53038,6 +53038,10 @@ value = "Kalnia Expanded";
 {
 name = styleName;
 value = Bold;
+},
+{
+name = variableStyleName;
+value = "Expanded Bold";
 }
 );
 interpolationWeight = 235;
