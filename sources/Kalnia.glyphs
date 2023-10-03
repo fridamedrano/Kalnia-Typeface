@@ -81,10 +81,6 @@ Name = Width;
 Tag = wdth;
 }
 );
-},
-{
-name = "Variable Font Family Name";
-value = Kalnia;
 }
 );
 date = "2022-03-23 12:33:01 +0000";
@@ -77902,9 +77898,9 @@ name = Bold;
 weightClass = Bold;
 },
 {
+exports = 0;
 customParameters = (
 {
-disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -77937,9 +77933,9 @@ weightClass = Thin;
 widthClass = Expanded;
 },
 {
+exports = 0;
 customParameters = (
 {
-disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -77973,9 +77969,9 @@ weightClass = ExtraLight;
 widthClass = Expanded;
 },
 {
+exports = 0;
 customParameters = (
 {
-disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -78009,9 +78005,9 @@ weightClass = Light;
 widthClass = Expanded;
 },
 {
+exports = 0;
 customParameters = (
 {
-disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -78053,9 +78049,9 @@ name = Regular;
 widthClass = Expanded;
 },
 {
+exports = 0;
 customParameters = (
 {
-disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -78089,9 +78085,9 @@ weightClass = Medium;
 widthClass = Expanded;
 },
 {
+exports = 0;
 customParameters = (
 {
-disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -78125,9 +78121,9 @@ weightClass = SemiBold;
 widthClass = Expanded;
 },
 {
+exports = 0;
 customParameters = (
 {
-disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -80502,5 +80498,5 @@ GSOffsetVertical = 0;
 };
 };
 versionMajor = 1;
-versionMinor = 104;
+versionMinor = 105;
 }
