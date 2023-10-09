@@ -12,7 +12,7 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffridamedrano%2FKalnia-Typeface%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffridamedrano%2FKalnia-Typeface%2Fgh-pages%2Fbadges%2FUniversal.json
 
-Kalnia is a variable font with weight and width axes designed with high contrast and refined terminals, drawing inspiration from the Victorian era. This historical period marked a transition from manual to machine production, and the 'fat face' style emerged—a bold and attention-grabbing typography used for poster headlines to stand out from traditional typefaces.
+Kalnia is a variable font with weight and width axes designed with high contrast and refined terminals, drawing inspiration from the Victorian era. This historical period marked a transition from manual to machine production, and the 'fat face' style emerged—a bold and attention-grabbing typography used for poster headlines to stand out from traditional typefaces. 
 Kalnia embodies the delicate and the boldness, bridging the gap between the old and the new. This display font family comprises a total of eight styles, making it a versatile choice for poster headlines and expressive design projects.
 
 ![Sample Image](documentation/image1.png)
