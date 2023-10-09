@@ -15,9 +15,8 @@ vw,
 "/Lcaron/dcaron/lcaron/tcaron aá/abreve/acaron âiäà/amacron/aogonek åã",
 "AÁ/Abreve/Acaron ÂÄÀ/Amacron/Aogonek ÅÃÆBC/Cacute/Ccaron Ç/Cdotaccent D/Dcaron/Dcroat ÐEÉ/Ecaron ÊË/Edotaccent È/Emacron/Eogonek FG/Gbreve/Gcommaaccent/Gdotaccent H/Hbar I/IJ ÍÎÏ/Idotaccent Ì/Imacron/Iogonek JK/Kcommaaccent L/Lacute/Lcaron/Lcommaaccent/Ldot/Lslash MN/Nacute/Ncaron/Ncommaaccent Ñ/Eng OÓÔÖÒ/Ohungarumlaut/Omacron ØÕ/OE PÞQR/Racute/Rcaron/Rcommaaccent S/Sacute/Scaron/Scedilla/Scommaaccent/Germandbls T/Tcaron/Tcommaaccent UÚ/Ubreve ÛÜÙ/Uhungarumlaut/Umacron/Uogonek/Uring VW/Wacute/Wcircumflex/Wdieresis/Wgrave XYÝ/Ycircumflex/Ydieresis/Ygrave Z/Zacute/Zcaron/Zdotaccent \012aá/abreve/acaron âäà/amacron/aogonek åãæbc/cacute/ccaron ç/cdotaccent d/dcaron/dcroat ðeé/ecaron êë/edotaccent è/emacron/eogonek fg/gbreve/gcommaaccent/gdotaccent h/hbar i/idotless/idotless_ogonekcomb íîï/idotaccent ì/imacron/iogonek/ij j/jdotless k/kcommaaccent l/lacute/lcaron/lcommaaccent/ldot/lslash mn/nacute/ncaron/ncommaaccent ñ/eng oóôöò/ohungarumlaut/omacron øõ/oe pþqr/racute/rcaron/rcommaaccent s/sacute/scaron/scedilla/scommaaccent ßt/tcaron/tcommaaccent uú/ubreve ûüù/uhungarumlaut/umacron/uogonek/uring vw/wacute/wcircumflex/wdieresis/wgrave xyý/ycircumflex/ydieresis/ygrave z/zacute/zcaron/zdotaccent",
 "AÁ/Abreve/Acaron ÂÄÀ/Amacron/Aogonek ÅÃÆBC/Cacute/Ccaron Ç/Cdotaccent D/Dcaron/Dcroat ÐEÉ/Ecaron ÊË/Edotaccent È/Emacron/Eogonek FG/Gbreve/Gcommaaccent/Gdotaccent H/Hbar I/IJ ÍÎÏ/Idotaccent Ì/Imacron/Iogonek JK/Kcommaaccent L/Lacute/Lcaron/Lcommaaccent/Ldot/Lslash MN/Nacute/Ncaron/Ncommaaccent Ñ/Eng OÓÔÖÒ/Ohungarumlaut/Omacron Õ/OE PÞQR/Racute/Rcaron/Rcommaaccent S/Sacute/Scaron/Scedilla/Scommaaccent/Germandbls T/Tcaron/Tcommaaccent UÚ/Ubreve ÛÜÙ/Uhungarumlaut/Umacron/Uogonek/Uring VW/Wacute/Wcircumflex/Wdieresis/Wgrave XYÝ/Ycircumflex/Ydieresis/Ygrave Z/Zacute/Zcaron/Zdotaccent aá/abreve/acaron âäà/amacron/aogonek åãæbc/cacute/ccaron ç/cdotaccent d/dcaron/dcroat ðeé/ecaron êë/edotaccent è/emacron/eogonek fg/gbreve/gcommaaccent/gdotaccent h/hbar i/idotless/idotless_ogonekcomb íîï/idotaccent ì/imacron/iogonek/ij j/jdotless k/kcommaaccent l/lacute/lcaron/lcommaaccent/ldot/lslash mn/nacute/ncaron/ncommaaccent ñ/eng oóôöò/ohungarumlaut/omacron õ/oe pþqr/racute/rcaron/rcommaaccent s/sacute/scaron/scedilla/scommaaccent ßt/tcaron/tcommaaccent uú/ubreve ûüù/uhungarumlaut/umacron/uogonek/uring vw/wacute/wcircumflex/wdieresis/wgrave xyý/ycircumflex/ydieresis/ygrave z/zacute/zcaron/zdotaccent/f_b.liga/f_f.liga/f_h.liga/f_j.liga/f_k.liga/fi/fl ªº/mu 0123456789|¦///fraction ½¼¾///backslash/divisionslash ¹²³/foursuperior «Hn»/guilsinglleft Hn/guilsinglright .,:;/ellipsis !¡?¿·/bullet *(){}[]/quotesinglbase/quotedblbase/quotedblleft/quotedblright/quoteleft/quoteright \"'/florin @&¶§©®/trademark °/minute/second/dagger/daggerdbl/replacementCharacter ^/approxequal ~+/minus #×÷/lessequal/greaterequal ><¬±=/notequal -/endash/emdash _µ%/perthousand/upArrow/downArrow/periodcentered.loclCAT/periodcentered.loclCAT.case/dotaccent `´/hungarumlaut/circumflex/caron/breve/ring/tilde/macroncomb ¯¸/ogonek/apostrophemod/commaturnedmod ¢$/euro £¥ø/lslash/Lslash Ø¤/.notdef/.null/dottedCircle",
-"Ohß",
-"Á",
-"/fl"
+"4¼¾/foursuperior",
+"/_zero-percent %"
 );
 classes = (
 {
@@ -48543,7 +48542,7 @@ unicode = 0033;
 {
 color = 4;
 glyphname = four;
-lastChange = "2023-10-08 23:33:52 +0000";
+lastChange = "2023-10-09 00:29:08 +0000";
 layers = (
 {
 layerId = "2660E96A-9963-4076-AFCB-E451BC6EE103";
@@ -48701,7 +48700,7 @@ nodes = (
 "520 205 LINE",
 "425 204 LINE",
 "425 724 LINE",
-"415 724 LINE",
+"420 724 LINE",
 "410 546 LINE",
 "410 204 LINE",
 "64 200 LINE",
@@ -48770,7 +48769,7 @@ nodes = (
 "910 205 LINE",
 "735 204 LINE",
 "735 724 LINE",
-"725 724 LINE",
+"730 724 LINE",
 "720 546 LINE",
 "720 204 LINE",
 "84 200 LINE",
@@ -52065,7 +52064,7 @@ unicode = 00B3;
 {
 color = 4;
 glyphname = foursuperior;
-lastChange = "2023-10-08 23:59:52 +0000";
+lastChange = "2023-10-09 00:28:56 +0000";
 layers = (
 {
 layerId = "A5088515-37FF-452F-BD44-18A7A5EF88F0";
@@ -52085,7 +52084,7 @@ nodes = (
 "231 517 LINE",
 "184 515 LINE",
 "184 723 LINE",
-"174 723 LINE",
+"181 723 LINE",
 "171 651 LINE",
 "171 514 LINE",
 "50 509 LINE",
@@ -52168,8 +52167,8 @@ nodes = (
 "63 723 OFFCURVE",
 "45 708 OFFCURVE",
 "45 680 CURVE SMOOTH",
-"45 655 OFFCURVE",
-"95 587 OFFCURVE",
+"45 645 OFFCURVE",
+"95 607 OFFCURVE",
 "95 567 CURVE SMOOTH",
 "95 551 OFFCURVE",
 "90 540 OFFCURVE",
@@ -52283,7 +52282,7 @@ nodes = (
 "401 517 LINE",
 "306 515 LINE",
 "306 723 LINE",
-"294 723 LINE",
+"303 723 LINE",
 "293 651 LINE",
 "293 514 LINE",
 "71 509 LINE",
