@@ -56,6 +56,10 @@ tag = slng;
 );
 },
 {
+name = description;
+value = "Kalnia is a variable font with weight and width axes designed with high contrast and refined terminals. Victorian era-inspired. It’s delicacy and boldness is perfect for expressive designs & posters.";
+},
+{
 name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
