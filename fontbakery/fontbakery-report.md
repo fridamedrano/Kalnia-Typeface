@@ -27,29 +27,29 @@ fontbakery version: 0.9.2
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, tifinagh, coptic, syriac, math, canadian-aboriginal, tai-le, malayalam
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, tai-le, malayalam, syriac, tifinagh, coptic, math
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
- * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CC DOTTED CIRCLE: try adding one of: syriac, sundanese, ahom, batak, mongolian, hanifi-rohingya, tirhuta, balinese, modi, cham, khmer, coptic, elbasan, syloti-nagri, tifinagh, adlam, bengali, gurmukhi, gunjala-gondi, takri, grantha, brahmi, tai-viet, kaithi, tibetan, khudawadi, lepcha, music, thai, telugu, caucasian-albanian, buginese, soyombo, duployan, kharoshthi, tamil, gujarati, old-permic, chakma, math, mandaic, manichaean, tagalog, kayah-li, wancho, new-tai-lue, osage, masaram-gondi, yi, symbols, rejang, oriya, psalter-pahlavi, lao, khojki, meetei-mayek, mende-kikakui, thaana, limbu, miao, tai-le, javanese, phags-pa, sogdian, sinhala, myanmar, zanabazar-square, devanagari, malayalam, bassa-vah, newa, pahawh-hmong, marchen, bhaiksuki, buhid, sharada, hebrew, mahajani, hanunoo, tagbanwa, siddham, kannada, nko, dogra
+ * U+25CC DOTTED CIRCLE: try adding one of: tagalog, zanabazar-square, mende-kikakui, hanunoo, balinese, caucasian-albanian, cham, gunjala-gondi, rejang, modi, buhid, sharada, newa, gujarati, tibetan, kaithi, thai, syriac, khojki, pahawh-hmong, kannada, oriya, grantha, sinhala, manichaean, buginese, devanagari, bhaiksuki, meetei-mayek, bengali, tamil, sogdian, math, lao, psalter-pahlavi, hebrew, sundanese, syloti-nagri, ahom, kharoshthi, duployan, old-permic, yi, mongolian, soyombo, masaram-gondi, bassa-vah, tirhuta, music, nko, tagbanwa, javanese, gurmukhi, takri, osage, batak, malayalam, marchen, telugu, wancho, adlam, khudawadi, limbu, tai-viet, lepcha, thaana, hanifi-rohingya, symbols, tifinagh, chakma, phags-pa, dogra, brahmi, coptic, myanmar, new-tai-lue, mandaic, elbasan, tai-le, mahajani, siddham, kayah-li, khmer, miao
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
  * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
 
@@ -142,29 +142,29 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, tifinagh, coptic, syriac, math, canadian-aboriginal, tai-le, malayalam
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, tai-le, malayalam, syriac, tifinagh, coptic, math
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
- * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CC DOTTED CIRCLE: try adding one of: syriac, sundanese, ahom, batak, mongolian, hanifi-rohingya, tirhuta, balinese, modi, cham, khmer, coptic, elbasan, syloti-nagri, tifinagh, adlam, bengali, gurmukhi, gunjala-gondi, takri, grantha, brahmi, tai-viet, kaithi, tibetan, khudawadi, lepcha, music, thai, telugu, caucasian-albanian, buginese, soyombo, duployan, kharoshthi, tamil, gujarati, old-permic, chakma, math, mandaic, manichaean, tagalog, kayah-li, wancho, new-tai-lue, osage, masaram-gondi, yi, symbols, rejang, oriya, psalter-pahlavi, lao, khojki, meetei-mayek, mende-kikakui, thaana, limbu, miao, tai-le, javanese, phags-pa, sogdian, sinhala, myanmar, zanabazar-square, devanagari, malayalam, bassa-vah, newa, pahawh-hmong, marchen, bhaiksuki, buhid, sharada, hebrew, mahajani, hanunoo, tagbanwa, siddham, kannada, nko, dogra
+ * U+25CC DOTTED CIRCLE: try adding one of: tagalog, zanabazar-square, mende-kikakui, hanunoo, balinese, caucasian-albanian, cham, gunjala-gondi, rejang, modi, buhid, sharada, newa, gujarati, tibetan, kaithi, thai, syriac, khojki, pahawh-hmong, kannada, oriya, grantha, sinhala, manichaean, buginese, devanagari, bhaiksuki, meetei-mayek, bengali, tamil, sogdian, math, lao, psalter-pahlavi, hebrew, sundanese, syloti-nagri, ahom, kharoshthi, duployan, old-permic, yi, mongolian, soyombo, masaram-gondi, bassa-vah, tirhuta, music, nko, tagbanwa, javanese, gurmukhi, takri, osage, batak, malayalam, marchen, telugu, wancho, adlam, khudawadi, limbu, tai-viet, lepcha, thaana, hanifi-rohingya, symbols, tifinagh, chakma, phags-pa, dogra, brahmi, coptic, myanmar, new-tai-lue, mandaic, elbasan, tai-le, mahajani, siddham, kayah-li, khmer, miao
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
  * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
 
@@ -343,29 +343,29 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, tifinagh, coptic, syriac, math, canadian-aboriginal, tai-le, malayalam
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, tai-le, malayalam, syriac, tifinagh, coptic, math
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
- * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CC DOTTED CIRCLE: try adding one of: syriac, sundanese, ahom, batak, mongolian, hanifi-rohingya, tirhuta, balinese, modi, cham, khmer, coptic, elbasan, syloti-nagri, tifinagh, adlam, bengali, gurmukhi, gunjala-gondi, takri, grantha, brahmi, tai-viet, kaithi, tibetan, khudawadi, lepcha, music, thai, telugu, caucasian-albanian, buginese, soyombo, duployan, kharoshthi, tamil, gujarati, old-permic, chakma, math, mandaic, manichaean, tagalog, kayah-li, wancho, new-tai-lue, osage, masaram-gondi, yi, symbols, rejang, oriya, psalter-pahlavi, lao, khojki, meetei-mayek, mende-kikakui, thaana, limbu, miao, tai-le, javanese, phags-pa, sogdian, sinhala, myanmar, zanabazar-square, devanagari, malayalam, bassa-vah, newa, pahawh-hmong, marchen, bhaiksuki, buhid, sharada, hebrew, mahajani, hanunoo, tagbanwa, siddham, kannada, nko, dogra
+ * U+25CC DOTTED CIRCLE: try adding one of: tagalog, zanabazar-square, mende-kikakui, hanunoo, balinese, caucasian-albanian, cham, gunjala-gondi, rejang, modi, buhid, sharada, newa, gujarati, tibetan, kaithi, thai, syriac, khojki, pahawh-hmong, kannada, oriya, grantha, sinhala, manichaean, buginese, devanagari, bhaiksuki, meetei-mayek, bengali, tamil, sogdian, math, lao, psalter-pahlavi, hebrew, sundanese, syloti-nagri, ahom, kharoshthi, duployan, old-permic, yi, mongolian, soyombo, masaram-gondi, bassa-vah, tirhuta, music, nko, tagbanwa, javanese, gurmukhi, takri, osage, batak, malayalam, marchen, telugu, wancho, adlam, khudawadi, limbu, tai-viet, lepcha, thaana, hanifi-rohingya, symbols, tifinagh, chakma, phags-pa, dogra, brahmi, coptic, myanmar, new-tai-lue, mandaic, elbasan, tai-le, mahajani, siddham, kayah-li, khmer, miao
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
  * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
 
@@ -584,29 +584,29 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, tifinagh, coptic, syriac, math, canadian-aboriginal, tai-le, malayalam
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, tai-le, malayalam, syriac, tifinagh, coptic, math
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
- * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CC DOTTED CIRCLE: try adding one of: syriac, sundanese, ahom, batak, mongolian, hanifi-rohingya, tirhuta, balinese, modi, cham, khmer, coptic, elbasan, syloti-nagri, tifinagh, adlam, bengali, gurmukhi, gunjala-gondi, takri, grantha, brahmi, tai-viet, kaithi, tibetan, khudawadi, lepcha, music, thai, telugu, caucasian-albanian, buginese, soyombo, duployan, kharoshthi, tamil, gujarati, old-permic, chakma, math, mandaic, manichaean, tagalog, kayah-li, wancho, new-tai-lue, osage, masaram-gondi, yi, symbols, rejang, oriya, psalter-pahlavi, lao, khojki, meetei-mayek, mende-kikakui, thaana, limbu, miao, tai-le, javanese, phags-pa, sogdian, sinhala, myanmar, zanabazar-square, devanagari, malayalam, bassa-vah, newa, pahawh-hmong, marchen, bhaiksuki, buhid, sharada, hebrew, mahajani, hanunoo, tagbanwa, siddham, kannada, nko, dogra
+ * U+25CC DOTTED CIRCLE: try adding one of: tagalog, zanabazar-square, mende-kikakui, hanunoo, balinese, caucasian-albanian, cham, gunjala-gondi, rejang, modi, buhid, sharada, newa, gujarati, tibetan, kaithi, thai, syriac, khojki, pahawh-hmong, kannada, oriya, grantha, sinhala, manichaean, buginese, devanagari, bhaiksuki, meetei-mayek, bengali, tamil, sogdian, math, lao, psalter-pahlavi, hebrew, sundanese, syloti-nagri, ahom, kharoshthi, duployan, old-permic, yi, mongolian, soyombo, masaram-gondi, bassa-vah, tirhuta, music, nko, tagbanwa, javanese, gurmukhi, takri, osage, batak, malayalam, marchen, telugu, wancho, adlam, khudawadi, limbu, tai-viet, lepcha, thaana, hanifi-rohingya, symbols, tifinagh, chakma, phags-pa, dogra, brahmi, coptic, myanmar, new-tai-lue, mandaic, elbasan, tai-le, mahajani, siddham, kayah-li, khmer, miao
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
  * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
 
@@ -699,29 +699,29 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, tifinagh, coptic, syriac, math, canadian-aboriginal, tai-le, malayalam
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, tai-le, malayalam, syriac, tifinagh, coptic, math
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
- * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CC DOTTED CIRCLE: try adding one of: syriac, sundanese, ahom, batak, mongolian, hanifi-rohingya, tirhuta, balinese, modi, cham, khmer, coptic, elbasan, syloti-nagri, tifinagh, adlam, bengali, gurmukhi, gunjala-gondi, takri, grantha, brahmi, tai-viet, kaithi, tibetan, khudawadi, lepcha, music, thai, telugu, caucasian-albanian, buginese, soyombo, duployan, kharoshthi, tamil, gujarati, old-permic, chakma, math, mandaic, manichaean, tagalog, kayah-li, wancho, new-tai-lue, osage, masaram-gondi, yi, symbols, rejang, oriya, psalter-pahlavi, lao, khojki, meetei-mayek, mende-kikakui, thaana, limbu, miao, tai-le, javanese, phags-pa, sogdian, sinhala, myanmar, zanabazar-square, devanagari, malayalam, bassa-vah, newa, pahawh-hmong, marchen, bhaiksuki, buhid, sharada, hebrew, mahajani, hanunoo, tagbanwa, siddham, kannada, nko, dogra
+ * U+25CC DOTTED CIRCLE: try adding one of: tagalog, zanabazar-square, mende-kikakui, hanunoo, balinese, caucasian-albanian, cham, gunjala-gondi, rejang, modi, buhid, sharada, newa, gujarati, tibetan, kaithi, thai, syriac, khojki, pahawh-hmong, kannada, oriya, grantha, sinhala, manichaean, buginese, devanagari, bhaiksuki, meetei-mayek, bengali, tamil, sogdian, math, lao, psalter-pahlavi, hebrew, sundanese, syloti-nagri, ahom, kharoshthi, duployan, old-permic, yi, mongolian, soyombo, masaram-gondi, bassa-vah, tirhuta, music, nko, tagbanwa, javanese, gurmukhi, takri, osage, batak, malayalam, marchen, telugu, wancho, adlam, khudawadi, limbu, tai-viet, lepcha, thaana, hanifi-rohingya, symbols, tifinagh, chakma, phags-pa, dogra, brahmi, coptic, myanmar, new-tai-lue, mandaic, elbasan, tai-le, mahajani, siddham, kayah-li, khmer, miao
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
  * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
 
@@ -814,29 +814,29 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, tifinagh, coptic, syriac, math, canadian-aboriginal, tai-le, malayalam
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, tai-le, malayalam, syriac, tifinagh, coptic, math
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
- * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CC DOTTED CIRCLE: try adding one of: syriac, sundanese, ahom, batak, mongolian, hanifi-rohingya, tirhuta, balinese, modi, cham, khmer, coptic, elbasan, syloti-nagri, tifinagh, adlam, bengali, gurmukhi, gunjala-gondi, takri, grantha, brahmi, tai-viet, kaithi, tibetan, khudawadi, lepcha, music, thai, telugu, caucasian-albanian, buginese, soyombo, duployan, kharoshthi, tamil, gujarati, old-permic, chakma, math, mandaic, manichaean, tagalog, kayah-li, wancho, new-tai-lue, osage, masaram-gondi, yi, symbols, rejang, oriya, psalter-pahlavi, lao, khojki, meetei-mayek, mende-kikakui, thaana, limbu, miao, tai-le, javanese, phags-pa, sogdian, sinhala, myanmar, zanabazar-square, devanagari, malayalam, bassa-vah, newa, pahawh-hmong, marchen, bhaiksuki, buhid, sharada, hebrew, mahajani, hanunoo, tagbanwa, siddham, kannada, nko, dogra
+ * U+25CC DOTTED CIRCLE: try adding one of: tagalog, zanabazar-square, mende-kikakui, hanunoo, balinese, caucasian-albanian, cham, gunjala-gondi, rejang, modi, buhid, sharada, newa, gujarati, tibetan, kaithi, thai, syriac, khojki, pahawh-hmong, kannada, oriya, grantha, sinhala, manichaean, buginese, devanagari, bhaiksuki, meetei-mayek, bengali, tamil, sogdian, math, lao, psalter-pahlavi, hebrew, sundanese, syloti-nagri, ahom, kharoshthi, duployan, old-permic, yi, mongolian, soyombo, masaram-gondi, bassa-vah, tirhuta, music, nko, tagbanwa, javanese, gurmukhi, takri, osage, batak, malayalam, marchen, telugu, wancho, adlam, khudawadi, limbu, tai-viet, lepcha, thaana, hanifi-rohingya, symbols, tifinagh, chakma, phags-pa, dogra, brahmi, coptic, myanmar, new-tai-lue, mandaic, elbasan, tai-le, mahajani, siddham, kayah-li, khmer, miao
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
  * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
 
@@ -929,29 +929,29 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, tifinagh, coptic, syriac, math, canadian-aboriginal, tai-le, malayalam
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, tai-le, malayalam, syriac, tifinagh, coptic, math
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
- * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CC DOTTED CIRCLE: try adding one of: syriac, sundanese, ahom, batak, mongolian, hanifi-rohingya, tirhuta, balinese, modi, cham, khmer, coptic, elbasan, syloti-nagri, tifinagh, adlam, bengali, gurmukhi, gunjala-gondi, takri, grantha, brahmi, tai-viet, kaithi, tibetan, khudawadi, lepcha, music, thai, telugu, caucasian-albanian, buginese, soyombo, duployan, kharoshthi, tamil, gujarati, old-permic, chakma, math, mandaic, manichaean, tagalog, kayah-li, wancho, new-tai-lue, osage, masaram-gondi, yi, symbols, rejang, oriya, psalter-pahlavi, lao, khojki, meetei-mayek, mende-kikakui, thaana, limbu, miao, tai-le, javanese, phags-pa, sogdian, sinhala, myanmar, zanabazar-square, devanagari, malayalam, bassa-vah, newa, pahawh-hmong, marchen, bhaiksuki, buhid, sharada, hebrew, mahajani, hanunoo, tagbanwa, siddham, kannada, nko, dogra
+ * U+25CC DOTTED CIRCLE: try adding one of: tagalog, zanabazar-square, mende-kikakui, hanunoo, balinese, caucasian-albanian, cham, gunjala-gondi, rejang, modi, buhid, sharada, newa, gujarati, tibetan, kaithi, thai, syriac, khojki, pahawh-hmong, kannada, oriya, grantha, sinhala, manichaean, buginese, devanagari, bhaiksuki, meetei-mayek, bengali, tamil, sogdian, math, lao, psalter-pahlavi, hebrew, sundanese, syloti-nagri, ahom, kharoshthi, duployan, old-permic, yi, mongolian, soyombo, masaram-gondi, bassa-vah, tirhuta, music, nko, tagbanwa, javanese, gurmukhi, takri, osage, batak, malayalam, marchen, telugu, wancho, adlam, khudawadi, limbu, tai-viet, lepcha, thaana, hanifi-rohingya, symbols, tifinagh, chakma, phags-pa, dogra, brahmi, coptic, myanmar, new-tai-lue, mandaic, elbasan, tai-le, mahajani, siddham, kayah-li, khmer, miao
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
  * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
 
