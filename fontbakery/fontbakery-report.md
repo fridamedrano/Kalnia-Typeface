@@ -14,6 +14,10 @@ fontbakery version: 0.9.2
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -28,32 +32,28 @@ fontbakery version: 0.9.2
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, malayalam, syriac, tai-le, tifinagh, canadian-aboriginal, math, coptic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, syriac, coptic, tifinagh, tai-le, math, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
- * U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CC DOTTED CIRCLE: try adding one of: brahmi, dogra, chakma, hanifi-rohingya, coptic, newa, rejang, new-tai-lue, gujarati, hebrew, sinhala, math, old-permic, malayalam, thai, tirhuta, javanese, balinese, phags-pa, bengali, nko, tamil, tifinagh, psalter-pahlavi, tagbanwa, cham, devanagari, mende-kikakui, oriya, tagalog, telugu, lepcha, grantha, soyombo, myanmar, syriac, kaithi, tibetan, masaram-gondi, wancho, adlam, batak, khmer, yi, sharada, music, bassa-vah, khojki, modi, sogdian, kannada, mongolian, bhaiksuki, caucasian-albanian, khudawadi, lao, marchen, elbasan, limbu, syloti-nagri, hanunoo, takri, gunjala-gondi, mandaic, mahajani, tai-viet, kayah-li, sundanese, ahom, siddham, manichaean, buginese, duployan, miao, pahawh-hmong, buhid, meetei-mayek, osage, tai-le, gurmukhi, thaana, symbols, kharoshthi, zanabazar-square
+ * U+25CC DOTTED CIRCLE: try adding one of: psalter-pahlavi, tifinagh, rejang, osage, thai, bengali, khojki, modi, grantha, gunjala-gondi, cham, new-tai-lue, yi, mahajani, syloti-nagri, music, batak, devanagari, kannada, tagalog, elbasan, math, thaana, hebrew, buginese, lepcha, telugu, caucasian-albanian, hanunoo, mandaic, hanifi-rohingya, phags-pa, sundanese, lao, mongolian, syriac, chakma, mende-kikakui, wancho, gujarati, miao, tirhuta, coptic, siddham, adlam, duployan, khmer, takri, pahawh-hmong, meetei-mayek, sogdian, tai-le, balinese, newa, sinhala, masaram-gondi, oriya, javanese, zanabazar-square, buhid, marchen, tagbanwa, bhaiksuki, dogra, sharada, tai-viet, myanmar, soyombo, kaithi, old-permic, brahmi, limbu, malayalam, kayah-li, gurmukhi, ahom, nko, tibetan, kharoshthi, tamil, manichaean, bassa-vah, khudawadi, symbols
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
  * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
-</div></details><details><summary>⚠ <b>WARN:</b> Description strings in the name table must not exceed 200 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length">com.google.fonts/check/name/description_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
 
@@ -129,6 +129,10 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -143,32 +147,28 @@ The following glyphs do not have the recommended number of contours:
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, malayalam, syriac, tai-le, tifinagh, canadian-aboriginal, math, coptic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, syriac, coptic, tifinagh, tai-le, math, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
- * U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CC DOTTED CIRCLE: try adding one of: brahmi, dogra, chakma, hanifi-rohingya, coptic, newa, rejang, new-tai-lue, gujarati, hebrew, sinhala, math, old-permic, malayalam, thai, tirhuta, javanese, balinese, phags-pa, bengali, nko, tamil, tifinagh, psalter-pahlavi, tagbanwa, cham, devanagari, mende-kikakui, oriya, tagalog, telugu, lepcha, grantha, soyombo, myanmar, syriac, kaithi, tibetan, masaram-gondi, wancho, adlam, batak, khmer, yi, sharada, music, bassa-vah, khojki, modi, sogdian, kannada, mongolian, bhaiksuki, caucasian-albanian, khudawadi, lao, marchen, elbasan, limbu, syloti-nagri, hanunoo, takri, gunjala-gondi, mandaic, mahajani, tai-viet, kayah-li, sundanese, ahom, siddham, manichaean, buginese, duployan, miao, pahawh-hmong, buhid, meetei-mayek, osage, tai-le, gurmukhi, thaana, symbols, kharoshthi, zanabazar-square
+ * U+25CC DOTTED CIRCLE: try adding one of: psalter-pahlavi, tifinagh, rejang, osage, thai, bengali, khojki, modi, grantha, gunjala-gondi, cham, new-tai-lue, yi, mahajani, syloti-nagri, music, batak, devanagari, kannada, tagalog, elbasan, math, thaana, hebrew, buginese, lepcha, telugu, caucasian-albanian, hanunoo, mandaic, hanifi-rohingya, phags-pa, sundanese, lao, mongolian, syriac, chakma, mende-kikakui, wancho, gujarati, miao, tirhuta, coptic, siddham, adlam, duployan, khmer, takri, pahawh-hmong, meetei-mayek, sogdian, tai-le, balinese, newa, sinhala, masaram-gondi, oriya, javanese, zanabazar-square, buhid, marchen, tagbanwa, bhaiksuki, dogra, sharada, tai-viet, myanmar, soyombo, kaithi, old-permic, brahmi, limbu, malayalam, kayah-li, gurmukhi, ahom, nko, tibetan, kharoshthi, tamil, manichaean, bassa-vah, khudawadi, symbols
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
  * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
-</div></details><details><summary>⚠ <b>WARN:</b> Description strings in the name table must not exceed 200 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length">com.google.fonts/check/name/description_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
 
@@ -330,6 +330,10 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -344,32 +348,28 @@ The following glyphs do not have the recommended number of contours:
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, malayalam, syriac, tai-le, tifinagh, canadian-aboriginal, math, coptic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, syriac, coptic, tifinagh, tai-le, math, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
- * U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CC DOTTED CIRCLE: try adding one of: brahmi, dogra, chakma, hanifi-rohingya, coptic, newa, rejang, new-tai-lue, gujarati, hebrew, sinhala, math, old-permic, malayalam, thai, tirhuta, javanese, balinese, phags-pa, bengali, nko, tamil, tifinagh, psalter-pahlavi, tagbanwa, cham, devanagari, mende-kikakui, oriya, tagalog, telugu, lepcha, grantha, soyombo, myanmar, syriac, kaithi, tibetan, masaram-gondi, wancho, adlam, batak, khmer, yi, sharada, music, bassa-vah, khojki, modi, sogdian, kannada, mongolian, bhaiksuki, caucasian-albanian, khudawadi, lao, marchen, elbasan, limbu, syloti-nagri, hanunoo, takri, gunjala-gondi, mandaic, mahajani, tai-viet, kayah-li, sundanese, ahom, siddham, manichaean, buginese, duployan, miao, pahawh-hmong, buhid, meetei-mayek, osage, tai-le, gurmukhi, thaana, symbols, kharoshthi, zanabazar-square
+ * U+25CC DOTTED CIRCLE: try adding one of: psalter-pahlavi, tifinagh, rejang, osage, thai, bengali, khojki, modi, grantha, gunjala-gondi, cham, new-tai-lue, yi, mahajani, syloti-nagri, music, batak, devanagari, kannada, tagalog, elbasan, math, thaana, hebrew, buginese, lepcha, telugu, caucasian-albanian, hanunoo, mandaic, hanifi-rohingya, phags-pa, sundanese, lao, mongolian, syriac, chakma, mende-kikakui, wancho, gujarati, miao, tirhuta, coptic, siddham, adlam, duployan, khmer, takri, pahawh-hmong, meetei-mayek, sogdian, tai-le, balinese, newa, sinhala, masaram-gondi, oriya, javanese, zanabazar-square, buhid, marchen, tagbanwa, bhaiksuki, dogra, sharada, tai-viet, myanmar, soyombo, kaithi, old-permic, brahmi, limbu, malayalam, kayah-li, gurmukhi, ahom, nko, tibetan, kharoshthi, tamil, manichaean, bassa-vah, khudawadi, symbols
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
  * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
-</div></details><details><summary>⚠ <b>WARN:</b> Description strings in the name table must not exceed 200 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length">com.google.fonts/check/name/description_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
 
@@ -486,9 +486,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* Odieresis (U+00D6): X=389.0,Y=-2.0 (should be at baseline 0?)
 
-	* Oslash (U+00D8): X=389.0,Y=-2.0 (should be at baseline 0?)
+	* Oslash (U+00D8): X=287.0,Y=-2.0 (should be at baseline 0?)
 
-	* germandbls (U+00DF): X=402.0,Y=710.0 (should be at cap-height 708?)
+	* Oslash (U+00D8): X=389.0,Y=-2.0 (should be at baseline 0?)
 
 	* aring (U+00E5): X=305.0,Y=709.0 (should be at cap-height 708?)
 
@@ -571,6 +571,10 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -585,32 +589,28 @@ The following glyphs do not have the recommended number of contours:
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, malayalam, syriac, tai-le, tifinagh, canadian-aboriginal, math, coptic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, syriac, coptic, tifinagh, tai-le, math, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
- * U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CC DOTTED CIRCLE: try adding one of: brahmi, dogra, chakma, hanifi-rohingya, coptic, newa, rejang, new-tai-lue, gujarati, hebrew, sinhala, math, old-permic, malayalam, thai, tirhuta, javanese, balinese, phags-pa, bengali, nko, tamil, tifinagh, psalter-pahlavi, tagbanwa, cham, devanagari, mende-kikakui, oriya, tagalog, telugu, lepcha, grantha, soyombo, myanmar, syriac, kaithi, tibetan, masaram-gondi, wancho, adlam, batak, khmer, yi, sharada, music, bassa-vah, khojki, modi, sogdian, kannada, mongolian, bhaiksuki, caucasian-albanian, khudawadi, lao, marchen, elbasan, limbu, syloti-nagri, hanunoo, takri, gunjala-gondi, mandaic, mahajani, tai-viet, kayah-li, sundanese, ahom, siddham, manichaean, buginese, duployan, miao, pahawh-hmong, buhid, meetei-mayek, osage, tai-le, gurmukhi, thaana, symbols, kharoshthi, zanabazar-square
+ * U+25CC DOTTED CIRCLE: try adding one of: psalter-pahlavi, tifinagh, rejang, osage, thai, bengali, khojki, modi, grantha, gunjala-gondi, cham, new-tai-lue, yi, mahajani, syloti-nagri, music, batak, devanagari, kannada, tagalog, elbasan, math, thaana, hebrew, buginese, lepcha, telugu, caucasian-albanian, hanunoo, mandaic, hanifi-rohingya, phags-pa, sundanese, lao, mongolian, syriac, chakma, mende-kikakui, wancho, gujarati, miao, tirhuta, coptic, siddham, adlam, duployan, khmer, takri, pahawh-hmong, meetei-mayek, sogdian, tai-le, balinese, newa, sinhala, masaram-gondi, oriya, javanese, zanabazar-square, buhid, marchen, tagbanwa, bhaiksuki, dogra, sharada, tai-viet, myanmar, soyombo, kaithi, old-permic, brahmi, limbu, malayalam, kayah-li, gurmukhi, ahom, nko, tibetan, kharoshthi, tamil, manichaean, bassa-vah, khudawadi, symbols
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
  * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
-</div></details><details><summary>⚠ <b>WARN:</b> Description strings in the name table must not exceed 200 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length">com.google.fonts/check/name/description_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
 
@@ -674,7 +674,7 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* seven (U+0037): L<<57.0,708.0>--<57.0,568.0>>/B<<57.0,568.0>-<95.0,723.0>-<262.0,723.0>> = 13.77501831967461 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] Kalnia-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] Kalnia-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -686,6 +686,10 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -700,32 +704,28 @@ The following glyphs do not have the recommended number of contours:
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, malayalam, syriac, tai-le, tifinagh, canadian-aboriginal, math, coptic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, syriac, coptic, tifinagh, tai-le, math, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
- * U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CC DOTTED CIRCLE: try adding one of: brahmi, dogra, chakma, hanifi-rohingya, coptic, newa, rejang, new-tai-lue, gujarati, hebrew, sinhala, math, old-permic, malayalam, thai, tirhuta, javanese, balinese, phags-pa, bengali, nko, tamil, tifinagh, psalter-pahlavi, tagbanwa, cham, devanagari, mende-kikakui, oriya, tagalog, telugu, lepcha, grantha, soyombo, myanmar, syriac, kaithi, tibetan, masaram-gondi, wancho, adlam, batak, khmer, yi, sharada, music, bassa-vah, khojki, modi, sogdian, kannada, mongolian, bhaiksuki, caucasian-albanian, khudawadi, lao, marchen, elbasan, limbu, syloti-nagri, hanunoo, takri, gunjala-gondi, mandaic, mahajani, tai-viet, kayah-li, sundanese, ahom, siddham, manichaean, buginese, duployan, miao, pahawh-hmong, buhid, meetei-mayek, osage, tai-le, gurmukhi, thaana, symbols, kharoshthi, zanabazar-square
+ * U+25CC DOTTED CIRCLE: try adding one of: psalter-pahlavi, tifinagh, rejang, osage, thai, bengali, khojki, modi, grantha, gunjala-gondi, cham, new-tai-lue, yi, mahajani, syloti-nagri, music, batak, devanagari, kannada, tagalog, elbasan, math, thaana, hebrew, buginese, lepcha, telugu, caucasian-albanian, hanunoo, mandaic, hanifi-rohingya, phags-pa, sundanese, lao, mongolian, syriac, chakma, mende-kikakui, wancho, gujarati, miao, tirhuta, coptic, siddham, adlam, duployan, khmer, takri, pahawh-hmong, meetei-mayek, sogdian, tai-le, balinese, newa, sinhala, masaram-gondi, oriya, javanese, zanabazar-square, buhid, marchen, tagbanwa, bhaiksuki, dogra, sharada, tai-viet, myanmar, soyombo, kaithi, old-permic, brahmi, limbu, malayalam, kayah-li, gurmukhi, ahom, nko, tibetan, kharoshthi, tamil, manichaean, bassa-vah, khudawadi, symbols
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
  * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
-</div></details><details><summary>⚠ <b>WARN:</b> Description strings in the name table must not exceed 200 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length">com.google.fonts/check/name/description_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
 
@@ -783,12 +783,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* Oslash (U+00D8): L<<498.0,699.0>--<498.0,699.0>> -> L<<498.0,699.0>--<502.0,699.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -807,6 +801,10 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -821,32 +819,28 @@ The following glyphs do not have the recommended number of contours:
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, malayalam, syriac, tai-le, tifinagh, canadian-aboriginal, math, coptic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, syriac, coptic, tifinagh, tai-le, math, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
- * U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CC DOTTED CIRCLE: try adding one of: brahmi, dogra, chakma, hanifi-rohingya, coptic, newa, rejang, new-tai-lue, gujarati, hebrew, sinhala, math, old-permic, malayalam, thai, tirhuta, javanese, balinese, phags-pa, bengali, nko, tamil, tifinagh, psalter-pahlavi, tagbanwa, cham, devanagari, mende-kikakui, oriya, tagalog, telugu, lepcha, grantha, soyombo, myanmar, syriac, kaithi, tibetan, masaram-gondi, wancho, adlam, batak, khmer, yi, sharada, music, bassa-vah, khojki, modi, sogdian, kannada, mongolian, bhaiksuki, caucasian-albanian, khudawadi, lao, marchen, elbasan, limbu, syloti-nagri, hanunoo, takri, gunjala-gondi, mandaic, mahajani, tai-viet, kayah-li, sundanese, ahom, siddham, manichaean, buginese, duployan, miao, pahawh-hmong, buhid, meetei-mayek, osage, tai-le, gurmukhi, thaana, symbols, kharoshthi, zanabazar-square
+ * U+25CC DOTTED CIRCLE: try adding one of: psalter-pahlavi, tifinagh, rejang, osage, thai, bengali, khojki, modi, grantha, gunjala-gondi, cham, new-tai-lue, yi, mahajani, syloti-nagri, music, batak, devanagari, kannada, tagalog, elbasan, math, thaana, hebrew, buginese, lepcha, telugu, caucasian-albanian, hanunoo, mandaic, hanifi-rohingya, phags-pa, sundanese, lao, mongolian, syriac, chakma, mende-kikakui, wancho, gujarati, miao, tirhuta, coptic, siddham, adlam, duployan, khmer, takri, pahawh-hmong, meetei-mayek, sogdian, tai-le, balinese, newa, sinhala, masaram-gondi, oriya, javanese, zanabazar-square, buhid, marchen, tagbanwa, bhaiksuki, dogra, sharada, tai-viet, myanmar, soyombo, kaithi, old-permic, brahmi, limbu, malayalam, kayah-li, gurmukhi, ahom, nko, tibetan, kharoshthi, tamil, manichaean, bassa-vah, khudawadi, symbols
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
  * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
-</div></details><details><summary>⚠ <b>WARN:</b> Description strings in the name table must not exceed 200 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length">com.google.fonts/check/name/description_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
 
@@ -922,6 +916,10 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -936,32 +934,28 @@ The following glyphs do not have the recommended number of contours:
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, malayalam, syriac, tai-le, tifinagh, canadian-aboriginal, math, coptic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, syriac, coptic, tifinagh, tai-le, math, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
- * U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CC DOTTED CIRCLE: try adding one of: brahmi, dogra, chakma, hanifi-rohingya, coptic, newa, rejang, new-tai-lue, gujarati, hebrew, sinhala, math, old-permic, malayalam, thai, tirhuta, javanese, balinese, phags-pa, bengali, nko, tamil, tifinagh, psalter-pahlavi, tagbanwa, cham, devanagari, mende-kikakui, oriya, tagalog, telugu, lepcha, grantha, soyombo, myanmar, syriac, kaithi, tibetan, masaram-gondi, wancho, adlam, batak, khmer, yi, sharada, music, bassa-vah, khojki, modi, sogdian, kannada, mongolian, bhaiksuki, caucasian-albanian, khudawadi, lao, marchen, elbasan, limbu, syloti-nagri, hanunoo, takri, gunjala-gondi, mandaic, mahajani, tai-viet, kayah-li, sundanese, ahom, siddham, manichaean, buginese, duployan, miao, pahawh-hmong, buhid, meetei-mayek, osage, tai-le, gurmukhi, thaana, symbols, kharoshthi, zanabazar-square
+ * U+25CC DOTTED CIRCLE: try adding one of: psalter-pahlavi, tifinagh, rejang, osage, thai, bengali, khojki, modi, grantha, gunjala-gondi, cham, new-tai-lue, yi, mahajani, syloti-nagri, music, batak, devanagari, kannada, tagalog, elbasan, math, thaana, hebrew, buginese, lepcha, telugu, caucasian-albanian, hanunoo, mandaic, hanifi-rohingya, phags-pa, sundanese, lao, mongolian, syriac, chakma, mende-kikakui, wancho, gujarati, miao, tirhuta, coptic, siddham, adlam, duployan, khmer, takri, pahawh-hmong, meetei-mayek, sogdian, tai-le, balinese, newa, sinhala, masaram-gondi, oriya, javanese, zanabazar-square, buhid, marchen, tagbanwa, bhaiksuki, dogra, sharada, tai-viet, myanmar, soyombo, kaithi, old-permic, brahmi, limbu, malayalam, kayah-li, gurmukhi, ahom, nko, tibetan, kharoshthi, tamil, manichaean, bassa-vah, khudawadi, symbols
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
  * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
-</div></details><details><summary>⚠ <b>WARN:</b> Description strings in the name table must not exceed 200 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length">com.google.fonts/check/name/description_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
 
 
@@ -1078,7 +1072,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* threequarters (U+00BE): X=132.0,Y=706.0 (should be at cap-height 708?)
 
-	* germandbls (U+00DF): X=381.0,Y=710.0 (should be at cap-height 708?)
+	* germandbls (U+00DF): X=534.5,Y=1.0 (should be at baseline 0?)
 
 	* thorn (U+00FE): X=368.5,Y=1.5 (should be at baseline 0?)
 
@@ -1135,8 +1129,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 21 | 0 | 47 | 828 | 43 | 702 | 0 |
-| 1% | 0% | 3% | 50% | 3% | 43% | 0% |
+| 21 | 7 | 39 | 828 | 43 | 703 | 0 |
+| 1% | 0% | 2% | 50% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
