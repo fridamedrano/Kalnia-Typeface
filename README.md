@@ -20,11 +20,11 @@ Kalnia is a variable font with weight and width axes designed with high contrast
 
 Kalnia embodies the delicate and the boldness, bridging the gap between the old and the new. This display font family comprises a total of eight styles, making it a versatile choice for poster headlines and expressive design projects.
 
-![Kalnia Typeface](documentation/KalniaTypeface-03.gif | width=1200)
+![Kalnia Typeface](documentation/KalniaTypeface-03.gif)
 
 ![Kalnia Typeface](documentation/KalniaTypeface-02.png)
 
-![Kalnia Typeface](documentation/KalniaTypeface-04.gif | width=1200)
+![Kalnia Typeface](documentation/KalniaTypeface-04.gif)
 
 
 ## About Frida Medrano
