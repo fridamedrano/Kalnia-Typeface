@@ -1,892 +1,1194 @@
-## Fontbakery report
+## FontBakery report
 
-Fontbakery version: 0.8.8
+fontbakery version: 0.9.2
 
-<details><summary><b>[6] Kalnia-ExtraLight.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+<details><summary><b>[9] Kalnia-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
+</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
+</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+
+
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
+
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, math, malayalam, syriac, coptic, tai-le, tifinagh, canadian-aboriginal
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
+ * U+2021 DOUBLE DAGGER: try adding adlam
+ * U+2030 PER MILLE SIGN: try adding adlam
+ * U+2248 ALMOST EQUAL TO: try adding math
+ * U+2260 NOT EQUAL TO: try adding math
+ * U+2264 LESS-THAN OR EQUAL TO: try adding math
+ * U+2265 GREATER-THAN OR EQUAL TO: try adding math
+ * U+25CC DOTTED CIRCLE: try adding one of: gujarati, takri, khudawadi, khojki, tagalog, duployan, miao, oriya, old-permic, syriac, gunjala-gondi, tifinagh, devanagari, sharada, mende-kikakui, zanabazar-square, sundanese, tirhuta, mahajani, osage, hanunoo, telugu, batak, music, cham, kannada, ahom, psalter-pahlavi, coptic, tibetan, math, masaram-gondi, buginese, hanifi-rohingya, malayalam, javanese, hebrew, new-tai-lue, rejang, tai-viet, thaana, chakma, tagbanwa, meetei-mayek, soyombo, nko, limbu, buhid, dogra, adlam, syloti-nagri, brahmi, thai, bengali, kayah-li, manichaean, phags-pa, bhaiksuki, balinese, mandaic, lao, sinhala, marchen, newa, mongolian, gurmukhi, caucasian-albanian, kaithi, siddham, symbols, myanmar, lepcha, tamil, modi, khmer, bassa-vah, pahawh-hmong, kharoshthi, wancho, sogdian, yi, grantha, elbasan, tai-le
+ * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
+ * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
+
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
+</div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
+
+
+* ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
 	- f + b
+
 	- b + f
+
 	- f + h
+
 	- h + i
+
 	- i + j
+
 	- j + k
-	- k + l
 
-   [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+	- k + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-	- And 4 more.
+	- Glyph name: multiply	Contours detected: 2	Expected: 1
 
-Use -F or --full-lists to disable shortening of long lists.
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
+	- Glyph name: multiply	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
-	* seven (U+0037): L<<81.0,708.0>--<80.0,588.0>>/B<<80.0,588.0>-<94.0,662.0>-<126.0,692.5>> = 10.235669245481464 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+	* seven (U+0037): L<<77.0,708.0>--<77.0,586.0>>/B<<77.0,586.0>-<92.0,660.0>-<126.5,691.5>> = 11.458752345877198 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[11] Kalnia-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * seven (U+0037): L<<81.0,708.0>--<80.0,588.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] KalniaExtended-ExtraLight.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
+</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
+</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+
+
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
+
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, math, malayalam, syriac, coptic, tai-le, tifinagh, canadian-aboriginal
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
+ * U+2021 DOUBLE DAGGER: try adding adlam
+ * U+2030 PER MILLE SIGN: try adding adlam
+ * U+2248 ALMOST EQUAL TO: try adding math
+ * U+2260 NOT EQUAL TO: try adding math
+ * U+2264 LESS-THAN OR EQUAL TO: try adding math
+ * U+2265 GREATER-THAN OR EQUAL TO: try adding math
+ * U+25CC DOTTED CIRCLE: try adding one of: gujarati, takri, khudawadi, khojki, tagalog, duployan, miao, oriya, old-permic, syriac, gunjala-gondi, tifinagh, devanagari, sharada, mende-kikakui, zanabazar-square, sundanese, tirhuta, mahajani, osage, hanunoo, telugu, batak, music, cham, kannada, ahom, psalter-pahlavi, coptic, tibetan, math, masaram-gondi, buginese, hanifi-rohingya, malayalam, javanese, hebrew, new-tai-lue, rejang, tai-viet, thaana, chakma, tagbanwa, meetei-mayek, soyombo, nko, limbu, buhid, dogra, adlam, syloti-nagri, brahmi, thai, bengali, kayah-li, manichaean, phags-pa, bhaiksuki, balinese, mandaic, lao, sinhala, marchen, newa, mongolian, gurmukhi, caucasian-albanian, kaithi, siddham, symbols, myanmar, lepcha, tamil, modi, khmer, bassa-vah, pahawh-hmong, kharoshthi, wancho, sogdian, yi, grantha, elbasan, tai-le
+ * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
+ * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
+
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
+</div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
+
+
+* ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
 	- f + b
+
 	- b + f
+
 	- f + h
+
 	- h + i
+
 	- i + j
+
 	- j + k
-	- k + l
 
-   [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Kalnia Extended ExtraLight' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+	- k + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
+	- Glyph name: multiply	Contours detected: 2	Expected: 1
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
+
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-	- And 4 more.
 
-Use -F or --full-lists to disable shortening of long lists.
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-	* W (U+0057): L<<816.0,471.0>--<831.0,494.0>> -> L<<831.0,494.0>--<865.0,555.0>>
-	* Wacute (U+1E82): L<<816.0,471.0>--<831.0,494.0>> -> L<<831.0,494.0>--<865.0,555.0>>
-	* Wcircumflex (U+0174): L<<816.0,471.0>--<831.0,494.0>> -> L<<831.0,494.0>--<865.0,555.0>>
-	* Wdieresis (U+1E84): L<<816.0,471.0>--<831.0,494.0>> -> L<<831.0,494.0>--<865.0,555.0>> and Wgrave (U+1E80): L<<816.0,471.0>--<831.0,494.0>> -> L<<831.0,494.0>--<865.0,555.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * AE (U+00C6): L<<1354.0,97.0>--<1353.0,248.0>>
- * B (U+0042): L<<557.0,362.0>--<267.0,364.0>>
- * OE (U+0152): L<<1537.0,97.0>--<1536.0,248.0>>
- * four (U+0034): L<<784.0,203.0>--<951.0,204.0>>
- * four (U+0034): L<<83.0,198.0>--<711.0,202.0>> and seven (U+0037): L<<101.0,708.0>--<100.0,588.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] Kalnia-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-	- f + b
-	- b + f
-	- f + h
-	- h + i
-	- i + j
-	- j + k
-	- k + l
-
-   [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-	- And 4 more.
 
-Use -F or --full-lists to disable shortening of long lists.
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
+	- Glyph name: multiply	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* dollar (U+0024): X=168.5,Y=2.0 (should be at baseline 0?)
-	* dollar (U+0024): X=469.5,Y=2.0 (should be at baseline 0?)
-	* ampersand (U+0026): X=622.0,Y=1.0 (should be at baseline 0?)
-	* three (U+0033): X=238.0,Y=706.0 (should be at cap-height 708?)
-	* G (U+0047): X=516.5,Y=-1.5 (should be at baseline 0?)
-	* a (U+0061): X=218.5,Y=502.0 (should be at x-height 500?)
-	* b (U+0062): X=420.0,Y=502.0 (should be at x-height 500?)
-	* b (U+0062): X=470.0,Y=-0.5 (should be at baseline 0?)
-	* b (U+0062): X=264.0,Y=2.0 (should be at baseline 0?)
-	* c (U+0063): X=462.0,Y=499.5 (should be at x-height 500?) and 81 more.
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+	* ampersand (U+0026): X=641.0,Y=1.5 (should be at baseline 0?)
 
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-	* ampersand (U+0026): L<<440.0,164.0>--<439.0,165.0>> -> L<<439.0,165.0>--<232.0,380.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-	* seven (U+0037): L<<55.0,708.0>--<50.0,562.0>>/B<<50.0,562.0>-<70.0,639.0>-<128.0,681.0>> = 12.598857951586536 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[5] KalniaExtended-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-	- f + b
-	- b + f
-	- f + h
-	- h + i
-	- i + j
-	- j + k
-	- k + l
-
-   [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-	- And 4 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-	* fi (U+FB01): L<<580.0,500.0>--<697.0,495.0>> -> L<<697.0,495.0>--<1318.0,515.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[5] Kalnia-SemiBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-	- f + b
-	- b + f
-	- f + h
-	- h + i
-	- i + j
-	- j + k
-	- k + l
-
-   [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-	- And 4 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-	* seven (U+0037): L<<61.0,708.0>--<57.0,568.0>>/B<<57.0,568.0>-<95.0,723.0>-<262.0,723.0>> = 12.138441278057911 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[7] KalniaExtended-Thin.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-	- f + b
-	- b + f
-	- f + h
-	- h + i
-	- i + j
-	- j + k
-	- k + l
-
-   [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-	- And 4 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* ampersand (U+0026): X=1071.0,Y=2.0 (should be at baseline 0?)
-	* ampersand (U+0026): X=950.0,Y=1.5 (should be at baseline 0?)
-	* parenleft (U+0028): X=264.5,Y=-0.5 (should be at baseline 0?)
-	* parenright (U+0029): X=294.5,Y=-0.5 (should be at baseline 0?)
-	* two (U+0032): X=329.5,Y=710.0 (should be at cap-height 708?)
-	* three (U+0033): X=300.5,Y=2.0 (should be at baseline 0?)
-	* three (U+0033): X=305.5,Y=706.0 (should be at cap-height 708?)
-	* five (U+0035): X=326.5,Y=2.0 (should be at baseline 0?)
-	* seven (U+0037): X=884.5,Y=706.0 (should be at cap-height 708?)
-	* G (U+0047): X=777.5,Y=0.5 (should be at baseline 0?) and 67 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-	* four (U+0034): L<<720.0,204.0>--<720.0,546.0>> -> L<<720.0,546.0>--<725.0,724.0>>
-	* onequarter (U+00BC): L<<566.0,93.0>--<566.0,230.0>> -> L<<566.0,230.0>--<567.0,302.0>>
-	* threequarters (U+00BE): L<<697.0,93.0>--<697.0,230.0>> -> L<<697.0,230.0>--<698.0,302.0>> and uni2074 (U+2074): L<<293.0,509.0>--<293.0,646.0>> -> L<<293.0,646.0>--<294.0,718.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * H (U+0048): L<<225.0,342.0>--<945.0,348.0>>
- * Hbar (U+0126): L<<225.0,342.0>--<945.0,348.0>>
- * ae (U+00E6): L<<785.0,286.0>--<1545.0,290.0>>
- * e (U+0065): L<<83.0,286.0>--<843.0,290.0>>
- * eacute (U+00E9): L<<83.0,286.0>--<843.0,290.0>>
- * ecaron (U+011B): L<<83.0,286.0>--<843.0,290.0>>
- * ecircumflex (U+00EA): L<<83.0,286.0>--<843.0,290.0>>
- * edieresis (U+00EB): L<<83.0,286.0>--<843.0,290.0>>
- * edotaccent (U+0117): L<<83.0,286.0>--<843.0,290.0>>
- * egrave (U+00E8): L<<83.0,286.0>--<843.0,290.0>> and 6 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[6] Kalnia-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-	- f + b
-	- b + f
-	- f + h
-	- h + i
-	- i + j
-	- j + k
-	- k + l
-
-   [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-	- And 4 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-	* cent (U+00A2): L<<324.0,541.0>--<324.0,541.0>> -> L<<324.0,541.0>--<324.0,541.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-	* Abreve (U+0102): B<<379.0,862.0>-<388.0,862.0>-<400.0,916.0>>/L<<400.0,916.0>--<398.0,906.0>> = 1.2188752351313326
-	* Abreve (U+0102): L<<360.0,906.0>--<358.0,916.0>>/B<<358.0,916.0>-<370.0,862.0>-<379.0,862.0>> = 1.2188752351313326
-	* Gbreve (U+011E): B<<385.0,862.0>-<394.0,862.0>-<406.0,916.0>>/L<<406.0,916.0>--<404.0,906.0>> = 1.2188752351313326
-	* Gbreve (U+011E): L<<366.0,906.0>--<364.0,916.0>>/B<<364.0,916.0>-<376.0,862.0>-<385.0,862.0>> = 1.2188752351313326
-	* Ubreve (U+016C): B<<381.0,862.0>-<390.0,862.0>-<402.0,916.0>>/L<<402.0,916.0>--<400.0,906.0>> = 1.2188752351313326
-	* Ubreve (U+016C): L<<362.0,906.0>--<360.0,916.0>>/B<<360.0,916.0>-<372.0,862.0>-<381.0,862.0>> = 1.2188752351313326
-	* abreve (U+0103): B<<303.0,654.0>-<312.0,654.0>-<324.0,708.0>>/L<<324.0,708.0>--<322.0,698.0>> = 1.2188752351313326
-	* abreve (U+0103): L<<284.0,698.0>--<282.0,708.0>>/B<<282.0,708.0>-<294.0,654.0>-<303.0,654.0>> = 1.2188752351313326
-	* breve (U+02D8): B<<210.0,654.0>-<219.0,654.0>-<231.0,708.0>>/L<<231.0,708.0>--<229.0,698.0>> = 1.2188752351313326
-	* breve (U+02D8): L<<191.0,698.0>--<190.0,708.0>>/B<<190.0,708.0>-<202.0,654.0>-<210.0,654.0>> = 6.818214571651848 and 9 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[7] Kalnia-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-	- f + b
-	- b + f
-	- f + h
-	- h + i
-	- i + j
-	- j + k
-	- k + l
-
-   [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-	- Glyph name: AE	Contours detected: 1	Expected: 2
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: AE	Contours detected: 1	Expected: 2
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: NULL	Contours detected: 3	Expected: 0 
-	- And 6 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* ampersand (U+0026): X=481.5,Y=710.0 (should be at cap-height 708?)
-	* two (U+0032): X=336.0,Y=1.5 (should be at baseline 0?)
-	* three (U+0033): X=261.0,Y=2.0 (should be at baseline 0?)
-	* three (U+0033): X=264.0,Y=707.0 (should be at cap-height 708?)
-	* six (U+0036): X=395.0,Y=706.0 (should be at cap-height 708?)
-	* seven (U+0037): X=584.0,Y=706.0 (should be at cap-height 708?)
-	* nine (U+0039): X=252.0,Y=2.0 (should be at baseline 0?)
-	* C (U+0043): X=380.0,Y=710.0 (should be at cap-height 708?)
-	* G (U+0047): X=376.0,Y=710.0 (should be at cap-height 708?)
-	* O (U+004F): X=389.0,Y=-2.0 (should be at baseline 0?) and 48 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-	* Euro (U+20AC): L<<270.0,394.0>--<270.0,394.0>> -> L<<270.0,394.0>--<535.0,394.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-	* seven (U+0037): L<<68.0,708.0>--<65.0,575.0>>/B<<65.0,575.0>-<99.0,723.0>-<248.0,723.0>> = 11.64588943093649 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[5] Kalnia-Light.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-	- f + b
-	- b + f
-	- f + h
-	- h + i
-	- i + j
-	- j + k
-	- k + l
-
-   [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-	- And 4 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-	* seven (U+0037): L<<79.0,708.0>--<77.0,586.0>>/B<<77.0,586.0>-<92.0,660.0>-<126.5,691.5>> = 10.519561400141608 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[8] Kalnia-Thin.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-	- f + b
-	- b + f
-	- f + h
-	- h + i
-	- i + j
-	- j + k
-	- k + l
-
-   [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-	- And 4 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* ampersand (U+0026): X=640.5,Y=1.5 (should be at baseline 0?)
 	* comma (U+002C): X=68.0,Y=-2.0 (should be at baseline 0?)
-	* two (U+0032): X=87.5,Y=-2.0 (should be at baseline 0?)
-	* two (U+0032): X=202.0,Y=706.0 (should be at cap-height 708?)
-	* three (U+0033): X=192.0,Y=2.0 (should be at baseline 0?)
-	* three (U+0033): X=195.0,Y=706.0 (should be at cap-height 708?)
-	* five (U+0035): X=207.0,Y=2.0 (should be at baseline 0?)
-	* seven (U+0037): X=544.5,Y=706.0 (should be at cap-height 708?)
-	* semicolon (U+003B): X=68.0,Y=-2.0 (should be at baseline 0?)
-	* G (U+0047): X=511.0,Y=2.0 (should be at baseline 0?) and 25 more.
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+	* two (U+0032): X=87.5,Y=-2.0 (should be at baseline 0?)
+
+	* two (U+0032): X=202.0,Y=706.0 (should be at cap-height 708?)
+
+	* three (U+0033): X=192.0,Y=2.0 (should be at baseline 0?)
+
+	* three (U+0033): X=195.0,Y=706.0 (should be at cap-height 708?)
+
+	* five (U+0035): X=207.0,Y=2.0 (should be at baseline 0?)
+
+	* seven (U+0037): X=544.5,Y=706.0 (should be at cap-height 708?)
+
+	* semicolon (U+003B): X=68.0,Y=-2.0 (should be at baseline 0?)
+
+	* G (U+0047): X=511.0,Y=2.0 (should be at baseline 0?)
+
+	* grave (U+0060): X=50.0,Y=710.0 (should be at cap-height 708?)
+
+	* f (U+0066): X=245.0,Y=709.0 (should be at cap-height 708?)
+
+	* k (U+006B): X=298.5,Y=500.5 (should be at x-height 500?)
+
+	* k (U+006B): X=386.0,Y=501.5 (should be at x-height 500?)
+
+	* r (U+0072): X=266.5,Y=501.0 (should be at x-height 500?)
+
+	* r (U+0072): X=361.5,Y=500.5 (should be at x-height 500?)
+
+	* x (U+0078): X=71.0,Y=1.5 (should be at baseline 0?)
+
+	* x (U+0078): X=568.0,Y=499.0 (should be at x-height 500?)
+
+	* ordfeminine (U+00AA): X=177.0,Y=710.0 (should be at cap-height 708?)
+
+	* uni00B2 (U+00B2): X=146.0,Y=710.0 (should be at cap-height 708?)
+
+	* uni00B3 (U+00B3): X=145.0,Y=710.0 (should be at cap-height 708?)
+
+	* acute (U+00B4): X=210.0,Y=710.0 (should be at cap-height 708?)
+
+	* onehalf (U+00BD): X=421.0,Y=-2.0 (should be at baseline 0?)
+
+	* onehalf (U+00BD): X=324.0,Y=-1.0 (should be at baseline 0?)
+
+	* threequarters (U+00BE): X=155.0,Y=710.0 (should be at cap-height 708?)
+
+	* germandbls (U+00DF): X=431.0,Y=710.0 (should be at cap-height 708?)
+
+	* agrave (U+00E0): X=186.0,Y=710.0 (should be at cap-height 708?)
+
+	* aacute (U+00E1): X=421.0,Y=710.0 (should be at cap-height 708?)
+
+	* egrave (U+00E8): X=188.0,Y=710.0 (should be at cap-height 708?)
+
+	* eacute (U+00E9): X=423.0,Y=710.0 (should be at cap-height 708?)
+
+	* igrave (U+00EC): X=17.0,Y=710.0 (should be at cap-height 708?)
+
+	* iacute (U+00ED): X=252.0,Y=710.0 (should be at cap-height 708?)
+
+	* ograve (U+00F2): X=186.0,Y=710.0 (should be at cap-height 708?)
+
+	* oacute (U+00F3): X=421.0,Y=710.0 (should be at cap-height 708?)
+
+	* ugrave (U+00F9): X=205.0,Y=710.0 (should be at cap-height 708?)
+
+	* uacute (U+00FA): X=440.0,Y=710.0 (should be at cap-height 708?)
+
+	* yacute (U+00FD): X=405.0,Y=710.0 (should be at cap-height 708?)
+
+	* cacute (U+0107): X=435.0,Y=710.0 (should be at cap-height 708?)
+
+	* Gbreve (U+011E): X=511.0,Y=2.0 (should be at baseline 0?)
+
+	* Gdotaccent (U+0120): X=511.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0122 (U+0122): X=511.0,Y=2.0 (should be at baseline 0?)
+
+	* nacute (U+0144): X=460.0,Y=710.0 (should be at cap-height 708?)
+
+	* ohungarumlaut (U+0151): X=526.0,Y=710.0 (should be at cap-height 708?)
+
+	* ohungarumlaut (U+0151): X=406.0,Y=710.0 (should be at cap-height 708?)
+
+	* racute (U+0155): X=344.0,Y=710.0 (should be at cap-height 708?)
+
+	* sacute (U+015B): X=378.0,Y=710.0 (should be at cap-height 708?)
+
+	* uhungarumlaut (U+0171): X=545.0,Y=710.0 (should be at cap-height 708?)
+
+	* uhungarumlaut (U+0171): X=425.0,Y=710.0 (should be at cap-height 708?)
+
+	* zacute (U+017A): X=407.0,Y=710.0 (should be at cap-height 708?)
+
+	* florin (U+0192): X=378.0,Y=709.0 (should be at cap-height 708?)
+
+	* hungarumlaut (U+02DD): X=330.0,Y=710.0 (should be at cap-height 708?)
+
+	* hungarumlaut (U+02DD): X=210.0,Y=710.0 (should be at cap-height 708?)
+
+	* gravecomb (U+0300): X=-110.0,Y=710.0 (should be at cap-height 708?)
+
+	* acutecomb (U+0301): X=110.0,Y=710.0 (should be at cap-height 708?)
+
+	* uni030B (U+030B): X=210.0,Y=710.0 (should be at cap-height 708?)
+
+	* uni030B (U+030B): X=90.0,Y=710.0 (should be at cap-height 708?)
+
+	* wgrave (U+1E81): X=324.0,Y=710.0 (should be at cap-height 708?)
+
+	* wacute (U+1E83): X=559.0,Y=710.0 (should be at cap-height 708?)
+
+	* uni1E9E (U+1E9E): X=327.5,Y=2.0 (should be at baseline 0?)
+
+	* ygrave (U+1EF3): X=170.0,Y=710.0 (should be at cap-height 708?)
+
+	* quotesinglbase (U+201A): X=68.0,Y=-2.0 (should be at baseline 0?)
+
+	* quotedblbase (U+201E): X=68.0,Y=-2.0 (should be at baseline 0?)
+
+	* quotedblbase (U+201E): X=206.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni25CC (U+25CC): X=429.0,Y=706.0 (should be at cap-height 708?)
+
+	* uni25CC (U+25CC): X=405.0,Y=706.0 (should be at cap-height 708?)
+
+	* uni25CC (U+25CC): X=429.0,Y=1.0 (should be at baseline 0?)
+
+	* uni25CC (U+25CC): X=405.0,Y=1.0 (should be at baseline 0?)
+
+	* fi (U+FB01): X=435.0,Y=709.5 (should be at cap-height 708?)
+
+	* fl (U+FB02): X=435.5,Y=710.0 (should be at cap-height 708?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* four (U+0034): L<<410.0,204.0>--<410.0,546.0>> -> L<<410.0,546.0>--<415.0,724.0>>
-	* onequarter (U+00BC): L<<392.0,93.0>--<392.0,230.0>> -> L<<392.0,230.0>--<395.0,302.0>>
-	* threequarters (U+00BE): L<<502.0,93.0>--<502.0,230.0>> -> L<<502.0,230.0>--<505.0,302.0>> and uni2074 (U+2074): L<<171.0,509.0>--<171.0,646.0>> -> L<<171.0,646.0>--<174.0,718.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+	* four (U+0034): L<<410.0,204.0>--<410.0,546.0>> -> L<<410.0,546.0>--<420.0,724.0>> [code: found-colinear-vectors]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
-	* seven (U+0037): L<<85.0,708.0>--<84.0,592.0>>/B<<84.0,592.0>-<98.0,666.0>-<126.5,694.5>> = 10.219206124172278 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+	* seven (U+0037): L<<84.0,708.0>--<84.0,592.0>>/B<<84.0,592.0>-<98.0,666.0>-<126.5,694.5>> = 10.713123022791033 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[10] Kalnia-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * seven (U+0037): L<<85.0,708.0>--<84.0,592.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] KalniaExtended-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
+</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
+</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+
+
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
+
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, math, malayalam, syriac, coptic, tai-le, tifinagh, canadian-aboriginal
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
+ * U+2021 DOUBLE DAGGER: try adding adlam
+ * U+2030 PER MILLE SIGN: try adding adlam
+ * U+2248 ALMOST EQUAL TO: try adding math
+ * U+2260 NOT EQUAL TO: try adding math
+ * U+2264 LESS-THAN OR EQUAL TO: try adding math
+ * U+2265 GREATER-THAN OR EQUAL TO: try adding math
+ * U+25CC DOTTED CIRCLE: try adding one of: gujarati, takri, khudawadi, khojki, tagalog, duployan, miao, oriya, old-permic, syriac, gunjala-gondi, tifinagh, devanagari, sharada, mende-kikakui, zanabazar-square, sundanese, tirhuta, mahajani, osage, hanunoo, telugu, batak, music, cham, kannada, ahom, psalter-pahlavi, coptic, tibetan, math, masaram-gondi, buginese, hanifi-rohingya, malayalam, javanese, hebrew, new-tai-lue, rejang, tai-viet, thaana, chakma, tagbanwa, meetei-mayek, soyombo, nko, limbu, buhid, dogra, adlam, syloti-nagri, brahmi, thai, bengali, kayah-li, manichaean, phags-pa, bhaiksuki, balinese, mandaic, lao, sinhala, marchen, newa, mongolian, gurmukhi, caucasian-albanian, kaithi, siddham, symbols, myanmar, lepcha, tamil, modi, khmer, bassa-vah, pahawh-hmong, kharoshthi, wancho, sogdian, yi, grantha, elbasan, tai-le
+ * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
+ * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
+
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
+</div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
+
+
+* ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
 	- f + b
+
 	- b + f
+
 	- f + h
+
 	- h + i
+
 	- i + j
+
 	- j + k
-	- k + l
 
-   [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Kalnia Extended Medium' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+	- k + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-	- And 4 more.
+	- Glyph name: AE	Contours detected: 1	Expected: 2
 
-Use -F or --full-lists to disable shortening of long lists.
+	- Glyph name: multiply	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: AE	Contours detected: 1	Expected: 2
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
+	- Glyph name: multiply	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* dollar (U+0024): X=610.0,Y=1.0 (should be at baseline 0?)
-	* dollar (U+0024): X=561.0,Y=709.0 (should be at cap-height 708?)
-	* ampersand (U+0026): X=760.0,Y=709.0 (should be at cap-height 708?)
-	* two (U+0032): X=550.5,Y=-1.0 (should be at baseline 0?)
-	* three (U+0033): X=446.0,Y=2.0 (should be at baseline 0?)
-	* three (U+0033): X=450.0,Y=707.0 (should be at cap-height 708?)
-	* three (U+0033): X=325.5,Y=708.5 (should be at cap-height 708?)
-	* four (U+0034): X=207.5,Y=706.5 (should be at cap-height 708?)
-	* five (U+0035): X=351.5,Y=2.0 (should be at baseline 0?)
-	* six (U+0036): X=768.0,Y=706.0 (should be at cap-height 708?) and 76 more.
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+	* ampersand (U+0026): X=481.5,Y=710.0 (should be at cap-height 708?)
+
+	* two (U+0032): X=336.0,Y=1.5 (should be at baseline 0?)
+
+	* six (U+0036): X=395.0,Y=706.0 (should be at cap-height 708?)
+
+	* seven (U+0037): X=584.0,Y=706.0 (should be at cap-height 708?)
+
+	* nine (U+0039): X=252.0,Y=2.0 (should be at baseline 0?)
+
+	* C (U+0043): X=380.0,Y=710.0 (should be at cap-height 708?)
+
+	* G (U+0047): X=376.0,Y=710.0 (should be at cap-height 708?)
+
+	* O (U+004F): X=389.0,Y=-2.0 (should be at baseline 0?)
+
+	* Q (U+0051): X=389.0,Y=-2.0 (should be at baseline 0?)
+
+	* b (U+0062): X=33.0,Y=709.0 (should be at cap-height 708?)
+
+	* d (U+0064): X=344.0,Y=499.0 (should be at x-height 500?)
+
+	* h (U+0068): X=31.0,Y=709.0 (should be at cap-height 708?)
+
+	* i (U+0069): X=83.0,Y=707.0 (should be at cap-height 708?)
+
+	* i (U+0069): X=228.0,Y=707.0 (should be at cap-height 708?)
+
+	* k (U+006B): X=31.0,Y=709.0 (should be at cap-height 708?)
+
+	* l (U+006C): X=31.0,Y=709.0 (should be at cap-height 708?)
+
+	* p (U+0070): X=321.5,Y=1.0 (should be at baseline 0?)
+
+	* t (U+0074): X=266.0,Y=2.0 (should be at baseline 0?)
+
+	* ordfeminine (U+00AA): X=168.0,Y=707.0 (should be at cap-height 708?)
+
+	* uni00B5 (U+00B5): X=38.0,Y=1.0 (should be at baseline 0?)
+
+	* onehalf (U+00BD): X=403.5,Y=-1.0 (should be at baseline 0?)
+
+	* Ccedilla (U+00C7): X=380.0,Y=710.0 (should be at cap-height 708?)
+
+	* Ograve (U+00D2): X=389.0,Y=-2.0 (should be at baseline 0?)
+
+	* Oacute (U+00D3): X=389.0,Y=-2.0 (should be at baseline 0?)
+
+	* Ocircumflex (U+00D4): X=389.0,Y=-2.0 (should be at baseline 0?)
+
+	* Otilde (U+00D5): X=389.0,Y=-2.0 (should be at baseline 0?)
+
+	* Odieresis (U+00D6): X=389.0,Y=-2.0 (should be at baseline 0?)
+
+	* Oslash (U+00D8): X=287.0,Y=-2.0 (should be at baseline 0?)
+
+	* Oslash (U+00D8): X=389.0,Y=-2.0 (should be at baseline 0?)
+
+	* oslash (U+00F8): X=202.0,Y=1.0 (should be at baseline 0?)
+
+	* thorn (U+00FE): X=321.5,Y=1.0 (should be at baseline 0?)
+
+	* Cacute (U+0106): X=380.0,Y=710.0 (should be at cap-height 708?)
+
+	* Cdotaccent (U+010A): X=380.0,Y=710.0 (should be at cap-height 708?)
+
+	* Ccaron (U+010C): X=380.0,Y=710.0 (should be at cap-height 708?)
+
+	* Gbreve (U+011E): X=376.0,Y=710.0 (should be at cap-height 708?)
+
+	* Gdotaccent (U+0120): X=376.0,Y=710.0 (should be at cap-height 708?)
+
+	* uni0122 (U+0122): X=376.0,Y=710.0 (should be at cap-height 708?)
+
+	* hbar (U+0127): X=31.0,Y=709.0 (should be at cap-height 708?)
+
+	* iogonek (U+012F): X=83.0,Y=707.0 (should be at cap-height 708?)
+
+	* iogonek (U+012F): X=228.0,Y=707.0 (should be at cap-height 708?)
+
+	* ij (U+0133): X=83.0,Y=707.0 (should be at cap-height 708?)
+
+	* ij (U+0133): X=228.0,Y=707.0 (should be at cap-height 708?)
+
+	* uni0137 (U+0137): X=31.0,Y=709.0 (should be at cap-height 708?)
+
+	* lacute (U+013A): X=31.0,Y=709.0 (should be at cap-height 708?)
+
+	* uni013C (U+013C): X=31.0,Y=709.0 (should be at cap-height 708?)
+
+	* lcaron (U+013E): X=31.0,Y=709.0 (should be at cap-height 708?)
+
+	* ldot (U+0140): X=31.0,Y=709.0 (should be at cap-height 708?)
+
+	* lslash (U+0142): X=31.0,Y=709.0 (should be at cap-height 708?)
+
+	* Omacron (U+014C): X=389.0,Y=-2.0 (should be at baseline 0?)
+
+	* Ohungarumlaut (U+0150): X=389.0,Y=-2.0 (should be at baseline 0?)
+
+	* tcaron (U+0165): X=266.0,Y=2.0 (should be at baseline 0?)
+
+	* uni021B (U+021B): X=266.0,Y=2.0 (should be at baseline 0?)
+
+	* uni03BC (U+03BC): X=38.0,Y=1.0 (should be at baseline 0?)
+
+	* uni1E9E (U+1E9E): X=476.0,Y=2.0 (should be at baseline 0?)
+
+	* daggerdbl (U+2021): X=280.0,Y=1.5 (should be at baseline 0?)
+
+	* daggerdbl (U+2021): X=192.0,Y=1.5 (should be at baseline 0?)
+
+	* Euro (U+20AC): X=454.0,Y=710.0 (should be at cap-height 708?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have colinear vectors:
-	* fi (U+FB01): L<<442.0,500.0>--<623.0,492.0>> -> L<<623.0,492.0>--<1086.0,515.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* seven (U+0037): L<<65.0,708.0>--<65.0,575.0>>/B<<65.0,575.0>-<99.0,723.0>-<248.0,723.0>> = 12.938056317186438 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[9] Kalnia-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * four (U+0034): L<<973.0,201.0>--<1107.0,202.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[6] KalniaExtended-Light.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
+</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
+</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+
+
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
+
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, math, malayalam, syriac, coptic, tai-le, tifinagh, canadian-aboriginal
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
+ * U+2021 DOUBLE DAGGER: try adding adlam
+ * U+2030 PER MILLE SIGN: try adding adlam
+ * U+2248 ALMOST EQUAL TO: try adding math
+ * U+2260 NOT EQUAL TO: try adding math
+ * U+2264 LESS-THAN OR EQUAL TO: try adding math
+ * U+2265 GREATER-THAN OR EQUAL TO: try adding math
+ * U+25CC DOTTED CIRCLE: try adding one of: gujarati, takri, khudawadi, khojki, tagalog, duployan, miao, oriya, old-permic, syriac, gunjala-gondi, tifinagh, devanagari, sharada, mende-kikakui, zanabazar-square, sundanese, tirhuta, mahajani, osage, hanunoo, telugu, batak, music, cham, kannada, ahom, psalter-pahlavi, coptic, tibetan, math, masaram-gondi, buginese, hanifi-rohingya, malayalam, javanese, hebrew, new-tai-lue, rejang, tai-viet, thaana, chakma, tagbanwa, meetei-mayek, soyombo, nko, limbu, buhid, dogra, adlam, syloti-nagri, brahmi, thai, bengali, kayah-li, manichaean, phags-pa, bhaiksuki, balinese, mandaic, lao, sinhala, marchen, newa, mongolian, gurmukhi, caucasian-albanian, kaithi, siddham, symbols, myanmar, lepcha, tamil, modi, khmer, bassa-vah, pahawh-hmong, kharoshthi, wancho, sogdian, yi, grantha, elbasan, tai-le
+ * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
+ * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
+
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
+</div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
+
+
+* ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
 	- f + b
+
 	- b + f
+
 	- f + h
+
 	- h + i
+
 	- i + j
+
 	- j + k
-	- k + l
 
-   [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Kalnia Extended Light' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+	- k + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
+	- Glyph name: multiply	Contours detected: 2	Expected: 1
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
+
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-	- And 4 more.
 
-Use -F or --full-lists to disable shortening of long lists.
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
+	- Glyph name: multiply	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * four (U+0034): L<<822.0,203.0>--<982.0,204.0>>
- * four (U+0034): L<<83.0,196.0>--<704.0,201.0>> and seven (U+0037): L<<97.0,708.0>--<96.0,586.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[5] KalniaExtended-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* seven (U+0037): L<<57.0,708.0>--<57.0,568.0>>/B<<57.0,568.0>-<95.0,723.0>-<262.0,723.0>> = 13.77501831967461 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[9] Kalnia-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
+</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
+</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+
+
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
+
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, math, malayalam, syriac, coptic, tai-le, tifinagh, canadian-aboriginal
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
+ * U+2021 DOUBLE DAGGER: try adding adlam
+ * U+2030 PER MILLE SIGN: try adding adlam
+ * U+2248 ALMOST EQUAL TO: try adding math
+ * U+2260 NOT EQUAL TO: try adding math
+ * U+2264 LESS-THAN OR EQUAL TO: try adding math
+ * U+2265 GREATER-THAN OR EQUAL TO: try adding math
+ * U+25CC DOTTED CIRCLE: try adding one of: gujarati, takri, khudawadi, khojki, tagalog, duployan, miao, oriya, old-permic, syriac, gunjala-gondi, tifinagh, devanagari, sharada, mende-kikakui, zanabazar-square, sundanese, tirhuta, mahajani, osage, hanunoo, telugu, batak, music, cham, kannada, ahom, psalter-pahlavi, coptic, tibetan, math, masaram-gondi, buginese, hanifi-rohingya, malayalam, javanese, hebrew, new-tai-lue, rejang, tai-viet, thaana, chakma, tagbanwa, meetei-mayek, soyombo, nko, limbu, buhid, dogra, adlam, syloti-nagri, brahmi, thai, bengali, kayah-li, manichaean, phags-pa, bhaiksuki, balinese, mandaic, lao, sinhala, marchen, newa, mongolian, gurmukhi, caucasian-albanian, kaithi, siddham, symbols, myanmar, lepcha, tamil, modi, khmer, bassa-vah, pahawh-hmong, kharoshthi, wancho, sogdian, yi, grantha, elbasan, tai-le
+ * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
+ * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
+
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
+</div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
+
+
+* ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
 	- f + b
+
 	- b + f
+
 	- f + h
+
 	- h + i
+
 	- i + j
+
 	- j + k
-	- k + l
 
-   [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+	- k + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
+	- Glyph name: multiply	Contours detected: 2	Expected: 1
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
+
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-	- And 4 more.
 
-Use -F or --full-lists to disable shortening of long lists.
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
+	- Glyph name: multiply	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have colinear vectors:
-	* fi (U+FB01): L<<398.0,500.0>--<599.0,492.0>> -> L<<599.0,492.0>--<1013.0,515.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[7] KalniaExtended-SemiBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* seven (U+0037): L<<80.0,708.0>--<80.0,588.0>>/B<<80.0,588.0>-<94.0,662.0>-<126.0,692.5>> = 10.713123022791033 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[9] Kalnia-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
+</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
+</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+
+
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
+
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, math, malayalam, syriac, coptic, tai-le, tifinagh, canadian-aboriginal
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
+ * U+2021 DOUBLE DAGGER: try adding adlam
+ * U+2030 PER MILLE SIGN: try adding adlam
+ * U+2248 ALMOST EQUAL TO: try adding math
+ * U+2260 NOT EQUAL TO: try adding math
+ * U+2264 LESS-THAN OR EQUAL TO: try adding math
+ * U+2265 GREATER-THAN OR EQUAL TO: try adding math
+ * U+25CC DOTTED CIRCLE: try adding one of: gujarati, takri, khudawadi, khojki, tagalog, duployan, miao, oriya, old-permic, syriac, gunjala-gondi, tifinagh, devanagari, sharada, mende-kikakui, zanabazar-square, sundanese, tirhuta, mahajani, osage, hanunoo, telugu, batak, music, cham, kannada, ahom, psalter-pahlavi, coptic, tibetan, math, masaram-gondi, buginese, hanifi-rohingya, malayalam, javanese, hebrew, new-tai-lue, rejang, tai-viet, thaana, chakma, tagbanwa, meetei-mayek, soyombo, nko, limbu, buhid, dogra, adlam, syloti-nagri, brahmi, thai, bengali, kayah-li, manichaean, phags-pa, bhaiksuki, balinese, mandaic, lao, sinhala, marchen, newa, mongolian, gurmukhi, caucasian-albanian, kaithi, siddham, symbols, myanmar, lepcha, tamil, modi, khmer, bassa-vah, pahawh-hmong, kharoshthi, wancho, sogdian, yi, grantha, elbasan, tai-le
+ * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
+ * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
+
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
+</div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
+
+
+* ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
 	- f + b
+
 	- b + f
+
 	- f + h
+
 	- h + i
+
 	- i + j
+
 	- j + k
-	- k + l
 
-   [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Kalnia Extended SemiBold' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+	- k + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: NULL	Contours detected: 3	Expected: 0
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-	- And 4 more.
+	- Glyph name: multiply	Contours detected: 2	Expected: 1
 
-Use -F or --full-lists to disable shortening of long lists.
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
+	- Glyph name: multiply	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* seven (U+0037): L<<69.0,708.0>--<69.0,579.0>>/B<<69.0,579.0>-<86.0,654.0>-<127.0,688.5>> = 12.771242564901412 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[10] Kalnia-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
+</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
+</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+
+
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
+
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, math, malayalam, syriac, coptic, tai-le, tifinagh, canadian-aboriginal
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
+ * U+2021 DOUBLE DAGGER: try adding adlam
+ * U+2030 PER MILLE SIGN: try adding adlam
+ * U+2248 ALMOST EQUAL TO: try adding math
+ * U+2260 NOT EQUAL TO: try adding math
+ * U+2264 LESS-THAN OR EQUAL TO: try adding math
+ * U+2265 GREATER-THAN OR EQUAL TO: try adding math
+ * U+25CC DOTTED CIRCLE: try adding one of: gujarati, takri, khudawadi, khojki, tagalog, duployan, miao, oriya, old-permic, syriac, gunjala-gondi, tifinagh, devanagari, sharada, mende-kikakui, zanabazar-square, sundanese, tirhuta, mahajani, osage, hanunoo, telugu, batak, music, cham, kannada, ahom, psalter-pahlavi, coptic, tibetan, math, masaram-gondi, buginese, hanifi-rohingya, malayalam, javanese, hebrew, new-tai-lue, rejang, tai-viet, thaana, chakma, tagbanwa, meetei-mayek, soyombo, nko, limbu, buhid, dogra, adlam, syloti-nagri, brahmi, thai, bengali, kayah-li, manichaean, phags-pa, bhaiksuki, balinese, mandaic, lao, sinhala, marchen, newa, mongolian, gurmukhi, caucasian-albanian, kaithi, siddham, symbols, myanmar, lepcha, tamil, modi, khmer, bassa-vah, pahawh-hmong, kharoshthi, wancho, sogdian, yi, grantha, elbasan, tai-le
+ * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
+ * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
+
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
+</div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
+
+
+* ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + b
+
+	- b + f
+
+	- f + h
+
+	- h + i
+
+	- i + j
+
+	- j + k
+
+	- k + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: multiply	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
+	- Glyph name: multiply	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* comma (U+002C): X=207.0,Y=1.5 (should be at baseline 0?)
+
+	* five (U+0035): X=96.0,Y=710.0 (should be at cap-height 708?)
+
+	* semicolon (U+003B): X=208.0,Y=1.5 (should be at baseline 0?)
+
+	* G (U+0047): X=516.5,Y=-1.5 (should be at baseline 0?)
+
+	* a (U+0061): X=218.5,Y=502.0 (should be at x-height 500?)
+
+	* b (U+0062): X=420.0,Y=502.0 (should be at x-height 500?)
+
+	* b (U+0062): X=470.0,Y=-0.5 (should be at baseline 0?)
+
+	* b (U+0062): X=264.0,Y=2.0 (should be at baseline 0?)
+
+	* c (U+0063): X=462.0,Y=499.5 (should be at x-height 500?)
+
+	* c (U+0063): X=428.5,Y=498.5 (should be at x-height 500?)
+
+	* d (U+0064): X=325.0,Y=498.5 (should be at x-height 500?)
+
+	* k (U+006B): X=610.0,Y=502.0 (should be at x-height 500?)
+
+	* p (U+0070): X=368.5,Y=1.5 (should be at baseline 0?)
+
+	* q (U+0071): X=256.5,Y=-2.0 (should be at baseline 0?)
+
+	* q (U+0071): X=206.0,Y=500.5 (should be at x-height 500?)
+
+	* q (U+0071): X=411.0,Y=498.0 (should be at x-height 500?)
+
+	* s (U+0073): X=212.0,Y=1.0 (should be at baseline 0?)
+
+	* s (U+0073): X=308.5,Y=-0.5 (should be at baseline 0?)
+
+	* s (U+0073): X=244.0,Y=501.5 (should be at x-height 500?)
+
+	* braceleft (U+007B): X=151.0,Y=1.0 (should be at baseline 0?)
+
+	* braceright (U+007D): X=446.0,Y=1.0 (should be at baseline 0?)
+
+	* section (U+00A7): X=405.0,Y=707.5 (should be at cap-height 708?)
+
+	* uni00B2 (U+00B2): X=125.0,Y=707.0 (should be at cap-height 708?)
+
+	* uni00B3 (U+00B3): X=112.0,Y=706.0 (should be at cap-height 708?)
+
+	* onehalf (U+00BD): X=425.5,Y=-1.5 (should be at baseline 0?)
+
+	* onehalf (U+00BD): X=366.0,Y=1.0 (should be at baseline 0?)
+
+	* threequarters (U+00BE): X=132.0,Y=706.0 (should be at cap-height 708?)
+
+	* germandbls (U+00DF): X=534.5,Y=1.0 (should be at baseline 0?)
+
+	* thorn (U+00FE): X=368.5,Y=1.5 (should be at baseline 0?)
+
+	* Gbreve (U+011E): X=516.5,Y=-1.5 (should be at baseline 0?)
+
+	* Gdotaccent (U+0120): X=516.5,Y=-1.5 (should be at baseline 0?)
+
+	* uni0122 (U+0122): X=516.5,Y=-1.5 (should be at baseline 0?)
+
+	* sacute (U+015B): X=212.0,Y=1.0 (should be at baseline 0?)
+
+	* sacute (U+015B): X=308.5,Y=-0.5 (should be at baseline 0?)
+
+	* scedilla (U+015F): X=212.0,Y=1.0 (should be at baseline 0?)
+
+	* scedilla (U+015F): X=308.5,Y=-0.5 (should be at baseline 0?)
+
+	* scaron (U+0161): X=212.0,Y=1.0 (should be at baseline 0?)
+
+	* scaron (U+0161): X=308.5,Y=-0.5 (should be at baseline 0?)
+
+	* uni0219 (U+0219): X=212.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0219 (U+0219): X=308.5,Y=-0.5 (should be at baseline 0?)
+
+	* uni02BB (U+02BB): X=230.0,Y=709.0 (should be at cap-height 708?)
+
+	* quoteleft (U+2018): X=230.0,Y=709.0 (should be at cap-height 708?)
+
+	* quotesinglbase (U+201A): X=207.0,Y=1.5 (should be at baseline 0?)
+
+	* quotedblleft (U+201C): X=465.0,Y=709.0 (should be at cap-height 708?)
+
+	* quotedblleft (U+201C): X=230.0,Y=709.0 (should be at cap-height 708?)
+
+	* quotedblbase (U+201E): X=207.0,Y=1.5 (should be at baseline 0?)
+
+	* quotedblbase (U+201E): X=423.0,Y=1.5 (should be at baseline 0?)
+
+	* uni25CC (U+25CC): X=285.0,Y=706.0 (should be at cap-height 708?)
+
+	* uni25CC (U+25CC): X=548.0,Y=1.0 (should be at baseline 0?)
+
+	* uni25CC (U+25CC): X=286.0,Y=1.0 (should be at baseline 0?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* fi (U+FB01): L<<514.0,500.0>--<662.0,494.0>> -> L<<662.0,494.0>--<1208.0,515.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * B (U+0042): L<<632.0,366.0>--<515.0,367.0>> [code: found-semi-vertical]
+	* ampersand (U+0026): L<<440.0,164.0>--<439.0,165.0>> -> L<<439.0,165.0>--<232.0,380.0>> [code: found-colinear-vectors]
 </div></details><br></div></details>
+
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 89 | 1459 | 85 | 1309 | 0 |
-| 0% | 0% | 3% | 50% | 3% | 44% | 0% |
+| 21 | 7 | 39 | 828 | 43 | 703 | 0 |
+| 1% | 0% | 2% | 50% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
