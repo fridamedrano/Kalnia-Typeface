@@ -49,6 +49,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 ## Changelog
 
 15 October 2022. Version 1.00
+18 October 2023. Version 1.105 - Font ready to be onboarded to Google Fonts
 
 ## License
 
